@@ -21,5 +21,4 @@ Links
 [GEOFrame source code](https://github.com/geogramecomponents)
 [GEOFrame projects](https://github.com/GEOframeOMSProjects)
 
-
 Remember: *five pushes a day keeps the doctor away*
