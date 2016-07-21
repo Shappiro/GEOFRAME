@@ -17,8 +17,8 @@ Repository for handling scripts and scratches for GEOFRAME/OMS3 project
 
 Links
 =====
-[Markdown syntax] (https://guides.github.com/features/mastering-markdown/)
-[GEOFrame source code](https://github.com/geogramecomponents)
-[GEOFrame projects](https://github.com/GEOframeOMSProjects)
+[Markdown syntax] (https://guides.github.com/features/mastering-markdown/) </br>
+[GEOFrame source code](https://github.com/geogramecomponents) </br>
+[GEOFrame projects](https://github.com/GEOframeOMSProjects) </br>
 
 Remember: *five pushes a day keeps the doctor away*
