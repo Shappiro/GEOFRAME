@@ -12,8 +12,8 @@ Repository for handling scripts and scratches for GEOFRAME/OMS3 project
 * Think about the needed JAVA classes for the Richards integration code from *Casulli et al*.
 
 **Should I take a look at some FORTRAN components that we already want to integrate inside the GEOFRAME?**
-- [] [HydroGen] (https://github.com/geoframecomponents/Hydro_gen), a computer code for generating two-dimensional space random functions with an assigned covariance structure. The original code is written in Ansi Fortran 77.
-- [] ...
+- [HydroGen] (https://github.com/geoframecomponents/Hydro_gen), a computer code for generating two-dimensional space random functions with an assigned covariance structure. The original code is written in Ansi Fortran 77.
+- ...
 
 Links
 =====
