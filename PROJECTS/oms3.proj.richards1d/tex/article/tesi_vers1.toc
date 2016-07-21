@@ -1,0 +1,27 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {italian}
+\defcounter {refsection}{0}\relax 
+\select@language {italian}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{1}{Introduzione}}{2}{section.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{2}{Il metodo}}{2}{section.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{2.1}{Iterazioni esterne: il metodo di Picard}}{4}{subsection.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{2.2}{Iterazioni interne: lineraizzazione con il metodo di Newton e risoluzione con il metodo del gradiente coniugato}}{5}{subsection.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{3}{Implementazione: Java e \texttt {OMS3}}}{5}{section.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {Appendice}{A}{Derivazione della forma $\psi -\theta $ dell'equazione di Richards}}{6}{appendix.Alph1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {Appendice}{B}{Dall'infinitamente piccolo al finitamente piccolo: il metodo iterativo}}{7}{appendix.Alph2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {Appendice}{C}{Conservare la massa: le iterazioni di Picard}}{13}{appendix.Alph3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {Appendice}{D}{Attacco alla variabilit\IeC {\`a}: le SWRC}}{13}{appendix.Alph4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {Appendice}{}{Riferimenti bibliografici}}{14}{section*.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{}{Articoli}}{14}{section*.6}

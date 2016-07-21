@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tobject/algo
+END
+ObjectMatrix1DComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/p/parallelcolt/code/!svn/ver/9/trunk/src/cern/colt/matrix/tobject/algo/ObjectMatrix1DComparator.java
+END
+ObjectMatrix2DComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/p/parallelcolt/code/!svn/ver/9/trunk/src/cern/colt/matrix/tobject/algo/ObjectMatrix2DComparator.java
+END
+ObjectFormatter.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tobject/algo/ObjectFormatter.java
+END
+ObjectSorting.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tobject/algo/ObjectSorting.java
+END
+ObjectPartitioning.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tobject/algo/ObjectPartitioning.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/colt/matrix/tobject/algo/package.html
+END

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/parallelcolt/code/!svn/ver/14/trunk/src/hep/aida/tdouble/ref
+END
+DoubleAbstractHistogram1D.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/p/parallelcolt/code/!svn/ver/11/trunk/src/hep/aida/tdouble/ref/DoubleAbstractHistogram1D.java
+END
+DoubleAbstractHistogram2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/p/parallelcolt/code/!svn/ver/11/trunk/src/hep/aida/tdouble/ref/DoubleAbstractHistogram2D.java
+END
+DoubleConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/p/parallelcolt/code/!svn/ver/11/trunk/src/hep/aida/tdouble/ref/DoubleConverter.java
+END
+DoubleAbstractHistogram3D.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/p/parallelcolt/code/!svn/ver/11/trunk/src/hep/aida/tdouble/ref/DoubleAbstractHistogram3D.java
+END
+DoubleVariableAxis.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/p/parallelcolt/code/!svn/ver/11/trunk/src/hep/aida/tdouble/ref/DoubleVariableAxis.java
+END
+DoubleHistogram.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/p/parallelcolt/code/!svn/ver/11/trunk/src/hep/aida/tdouble/ref/DoubleHistogram.java
+END
+DoubleHistogram1DContents.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/p/parallelcolt/code/!svn/ver/11/trunk/src/hep/aida/tdouble/ref/DoubleHistogram1DContents.java
+END
+DoubleHistogram1D.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/parallelcolt/code/!svn/ver/14/trunk/src/hep/aida/tdouble/ref/DoubleHistogram1D.java
+END
+Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/p/parallelcolt/code/!svn/ver/6/trunk/src/hep/aida/tdouble/ref/Util.java
+END
+DoubleHistogram2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/parallelcolt/code/!svn/ver/14/trunk/src/hep/aida/tdouble/ref/DoubleHistogram2D.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/parallelcolt/code/!svn/ver/6/trunk/src/hep/aida/tdouble/ref/package.html
+END
+DoubleFixedAxis.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/p/parallelcolt/code/!svn/ver/11/trunk/src/hep/aida/tdouble/ref/DoubleFixedAxis.java
+END
+DoubleHistogram3D.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/parallelcolt/code/!svn/ver/14/trunk/src/hep/aida/tdouble/ref/DoubleHistogram3D.java
+END

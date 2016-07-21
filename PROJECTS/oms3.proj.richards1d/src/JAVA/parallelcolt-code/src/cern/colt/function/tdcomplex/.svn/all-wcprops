@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/p/parallelcolt/code/!svn/ver/9/trunk/src/cern/colt/function/tdcomplex
+END
+DComplexDComplexFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/p/parallelcolt/code/!svn/ver/9/trunk/src/cern/colt/function/tdcomplex/DComplexDComplexFunction.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/colt/function/tdcomplex/package.html
+END
+DComplexDComplexProcedure.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/colt/function/tdcomplex/DComplexDComplexProcedure.java
+END
+DComplexDComplexRealFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/colt/function/tdcomplex/DComplexDComplexRealFunction.java
+END
+DComplexRealDComplexFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/colt/function/tdcomplex/DComplexRealDComplexFunction.java
+END
+RealDComplexDComplexFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/colt/function/tdcomplex/RealDComplexDComplexFunction.java
+END
+DComplexDComplexRealProcedure.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/colt/function/tdcomplex/DComplexDComplexRealProcedure.java
+END
+DComplexProcedure.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/colt/function/tdcomplex/DComplexProcedure.java
+END
+DComplexDComplexRealRealFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/colt/function/tdcomplex/DComplexDComplexRealRealFunction.java
+END
+DComplexRealFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/colt/function/tdcomplex/DComplexRealFunction.java
+END
+RealDComplexFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/colt/function/tdcomplex/RealDComplexFunction.java
+END
+IntIntDComplexFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/colt/function/tdcomplex/IntIntDComplexFunction.java
+END
+DComplexDComplexDComplexFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/colt/function/tdcomplex/DComplexDComplexDComplexFunction.java
+END

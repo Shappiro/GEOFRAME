@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/map/tdouble
+END
+OpenDoubleIntHashMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/map/tdouble/OpenDoubleIntHashMap.java
+END
+OpenIntDoubleHashMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/map/tdouble/OpenIntDoubleHashMap.java
+END
+AbstractDoubleLongMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/map/tdouble/AbstractDoubleLongMap.java
+END
+AbstractLongDoubleMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/map/tdouble/AbstractLongDoubleMap.java
+END
+OpenDoubleLongHashMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/map/tdouble/OpenDoubleLongHashMap.java
+END
+OpenLongDoubleHashMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/map/tdouble/OpenLongDoubleHashMap.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/colt/map/tdouble/package.html
+END
+AbstractDoubleIntMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/map/tdouble/AbstractDoubleIntMap.java
+END
+AbstractIntDoubleMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/map/tdouble/AbstractIntDoubleMap.java
+END

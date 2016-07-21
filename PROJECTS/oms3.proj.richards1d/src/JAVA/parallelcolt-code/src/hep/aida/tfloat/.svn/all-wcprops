@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/p/parallelcolt/code/!svn/ver/14/trunk/src/hep/aida/tfloat
+END
+FloatIHistogram.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/p/parallelcolt/code/!svn/ver/6/trunk/src/hep/aida/tfloat/FloatIHistogram.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/p/parallelcolt/code/!svn/ver/6/trunk/src/hep/aida/tfloat/package.html
+END
+FloatIHistogram1D.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/p/parallelcolt/code/!svn/ver/11/trunk/src/hep/aida/tfloat/FloatIHistogram1D.java
+END
+FloatIHistogram2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/p/parallelcolt/code/!svn/ver/6/trunk/src/hep/aida/tfloat/FloatIHistogram2D.java
+END
+FloatIAxis.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/p/parallelcolt/code/!svn/ver/6/trunk/src/hep/aida/tfloat/FloatIAxis.java
+END
+FloatIHistogram3D.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/p/parallelcolt/code/!svn/ver/6/trunk/src/hep/aida/tfloat/FloatIHistogram3D.java
+END

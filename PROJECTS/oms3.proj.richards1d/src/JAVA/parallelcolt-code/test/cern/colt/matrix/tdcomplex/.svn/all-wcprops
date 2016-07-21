@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tdcomplex
+END
+AllDComplexMatrixTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tdcomplex/AllDComplexMatrixTests.java
+END
+DComplexMatrix1DTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tdcomplex/DComplexMatrix1DTest.java
+END
+DComplexMatrix2DTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tdcomplex/DComplexMatrix2DTest.java
+END
+DComplexMatrix3DTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tdcomplex/DComplexMatrix3DTest.java
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/list/tfloat
+END
+AbstractFloatList.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/list/tfloat/AbstractFloatList.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/colt/list/tfloat/package.html
+END
+FloatArrayList.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/list/tfloat/FloatArrayList.java
+END
+FloatListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/list/tfloat/FloatListAdapter.java
+END

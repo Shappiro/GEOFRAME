@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tlong
+END
+LongMatrix1DTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tlong/LongMatrix1DTest.java
+END
+LongMatrix2DTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tlong/LongMatrix2DTest.java
+END
+LongMatrix3DTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tlong/LongMatrix3DTest.java
+END
+AllLongMatrixTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tlong/AllLongMatrixTests.java
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/p/parallelcolt/code/!svn/ver/14/trunk/src/hep/aida/tdouble
+END
+DoubleIHistogram1D.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/p/parallelcolt/code/!svn/ver/11/trunk/src/hep/aida/tdouble/DoubleIHistogram1D.java
+END
+DoubleIHistogram2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/p/parallelcolt/code/!svn/ver/6/trunk/src/hep/aida/tdouble/DoubleIHistogram2D.java
+END
+DoubleIAxis.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/parallelcolt/code/!svn/ver/6/trunk/src/hep/aida/tdouble/DoubleIAxis.java
+END
+DoubleIHistogram3D.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/p/parallelcolt/code/!svn/ver/6/trunk/src/hep/aida/tdouble/DoubleIHistogram3D.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/p/parallelcolt/code/!svn/ver/6/trunk/src/hep/aida/tdouble/package.html
+END
+DoubleIHistogram.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/p/parallelcolt/code/!svn/ver/6/trunk/src/hep/aida/tdouble/DoubleIHistogram.java
+END

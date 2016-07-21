@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/p/parallelcolt/code/!svn/ver/9/trunk/src/cern/colt/function/tfcomplex
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/colt/function/tfcomplex/package.html
+END
+FComplexFComplexFComplexFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/colt/function/tfcomplex/FComplexFComplexFComplexFunction.java
+END
+FComplexFComplexFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/p/parallelcolt/code/!svn/ver/9/trunk/src/cern/colt/function/tfcomplex/FComplexFComplexFunction.java
+END
+FComplexFComplexProcedure.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/colt/function/tfcomplex/FComplexFComplexProcedure.java
+END
+FComplexFComplexRealFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/colt/function/tfcomplex/FComplexFComplexRealFunction.java
+END
+FComplexRealFComplexFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/colt/function/tfcomplex/FComplexRealFComplexFunction.java
+END
+RealFComplexFComplexFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/colt/function/tfcomplex/RealFComplexFComplexFunction.java
+END
+FComplexProcedure.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/colt/function/tfcomplex/FComplexProcedure.java
+END
+FComplexRealFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/colt/function/tfcomplex/FComplexRealFunction.java
+END
+RealFComplexFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/colt/function/tfcomplex/RealFComplexFunction.java
+END
+FComplexFComplexRealProcedure.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/colt/function/tfcomplex/FComplexFComplexRealProcedure.java
+END
+FComplexFComplexRealRealFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/colt/function/tfcomplex/FComplexFComplexRealRealFunction.java
+END
+IntIntFComplexFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/colt/function/tfcomplex/IntIntFComplexFunction.java
+END

@@ -1,0 +1,405 @@
+\documentclass[11pt]{amsart}
+%Preamble for language and encoding
+\usepackage[italian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+
+\usepackage[dvips]{epsfig}
+\usepackage{graphics}
+\usepackage{latexsym}
+\usepackage{verbatim}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+
+
+\usepackage[]{hyperref}
+\hypersetup{
+    colorlinks=true,%
+ %   citecolor=black,%
+    filecolor=black,%
+    linkcolor=black,%
+    urlcolor=BrickRed
+}
+
+\usepackage [table,dvipsnames]{xcolor}
+\usepackage{listings} % For complex verbatim environments
+
+
+\lstset{%
+basicstyle=\ttfamily\small, % This changes typesetting character for code environment
+numbers=left, % Activate line numbers
+numbersep=6pt, % Separation of line numbers from code
+numberstyle=\tiny\color{black}\ttfamily, % Style of line numbers
+xleftmargin=\parindent, % Distance of whole code box from left margin
+frame=l, % Do we want a frame around our code block? l=single left line, L=double left line, r= [...]
+showstringspaces=false,
+commentstyle=\color{Gray},
+keywordstyle=\color{Black},
+stringstyle=\color{Gray},
+literate=%
+         {è}{{\`e}}1
+}
+
+%%%%%%%%%%% plus plus %%%%%%%%%%%%%
+\usepackage{float}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{subfig}
+%For bibliography
+\usepackage[backend=bibtex,style=numeric]{biblatex} 
+\addbibresource{tesi_bibliography.bib}
+
+%Extra mathematical symbols
+\usepackage{amssymb}
+
+\usepackage{epsfig}  		% For postscript
+\usepackage{epic,eepic}       % For epic and eepic output from xfig
+
+%\usepackage{showkeys}
+
+
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{cor}[thm]{Corollary}
+
+\usepackage[labelfont={footnotesize,sf,bf},textfont={footnotesize,sf}]{caption}
+
+\theoremstyle{definition}
+\newtheorem{definition}[thm]{Definition}
+\newtheorem{example}[thm]{Example}
+
+\theoremstyle{remark}
+\newtheorem{remark}[thm]{Remark}
+
+\numberwithin{equation}{section}
+
+%%%REDEFINED COMMANDS AND NEW COMMANDS
+\newcommand*\rfrac[2]{{}^{#1}\!/_{#2}}
+\definecolor{SkyBlue}{RGB}{26 100 191}
+\definecolor{GreenYellow}{RGB}{154 205 50}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=.7pt,color=Red] (char) {\textcolor{red}{#1}};}}
+
+\begin{document}
+
+\title[Metodo iterativo per l'equazione di Richards]{Un problema di convergenza: implementazione di un metodo iterativo per la soluzione dell'equazione di Richards}
+\author{Aaron Iemma}
+\address{DICAM, Università degli Studi di Trento, 
+Italy}
+\email{aaron.iemma@studenti.unitn.it}
+\urladdr{https://github.com/Shappiro}
+
+%\author{Second Author}
+%\address{Department of Mathematics, University of South Carolina,
+%Columbia, SC 29208}
+%\email{second@math.sc.edu}
+%\urladdr{www.math.sc.edu/$\sim$second}
+
+%%%
+
+\begin{abstract}
+I flussi liquidi attraverso i mezzi porosi sono ben descritti e caratterizzati dall'equazione di Richards, un'equazione differenziale 
+fortemente non lineare non risolubile in forma chiusa, se non con alcune semplificazioni. Si propone di seguito l'implementazione di un innovativo metodo 
+di risoluzione ai volumi finiti dell'equazione, che riscritta nella forma mista in termini di contenuto d'umidità volumetrico $\theta$ e di prevalenza più 
+altezza potenziale $\psi + z$, fornisce una risoluzione ai volumi finiti \emph{mass-conservative} anche in condizioni di saturazione. L'imlementazione 
+viene presentata all'interno del \emph{framework} \emph{Java} \texttt{OMS3} (\emph{Object Modelling System}), garanzia della costruzione di un modello basato 
+sulle componenti facilmente riusabile e reimplementabile.
+\end{abstract}
+
+%%
+%%  LaTeX will not make the title for the paper unless told to do so.
+%%  This is done by uncommenting the following.
+%%
+
+\maketitle
+\tableofcontents
+
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduzione}
+\label{sec:intro}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Il presente lavoro deve quasi tutto alla chiarezza espositiva di un articolo di Vincenzo Casulli e Paola Zanolli, 
+apparso per la prima volta nel 2010 sul \emph{Journal} del \texttt{SIAM} \cite{art:casulli}. 
+In esso è ampiamente discussa, in uno stile chiaro e conciso, la creazione di un nuovo modello ai volumi finiti per la forma mista 
+$\psi - \theta$ dell'equazione di Richards:
+
+\begin{equation}
+\frac{\partial \theta(\psi)}{\partial t} = \nabla\cdot\lbrack \textbf{K}(\psi)\nabla(\psi + z) \rbrack + S
+\end{equation}
+dove $\theta$ è il contenuto volumetrico d'acqua ($\theta=\rfrac{V_{w}}{V_t}$), $\psi$ la prevalenza, $z$ la coordinata verticale, $t$ 
+il tempo, $\mathbf{K}$ la matrice di diffusivit\`a e $S$ rappresenta le eventuali sorgenti interne al volume di controllo 
+(il concetto di 'volume di controllo' sarà presto più chiaro,:eventualmente, per una derivazione dell'equazione di cui sopra si faccia riferimento 
+alle Appendici \ref{appendix:richards}). 
+
+Purtroppo, l'equazione include un termine, il contenuto d'acqua $\theta(\psi)$, che è in generale variabile \emph{non linearmente} con la prevalenza (per un 
+approfondimento, si vedano le Appendici, in particolare, le sezioni dedicate alle \emph{Soil Water Retention Curve} \ref{appendix:swrc}). Proprio questo 
+termine rende la risoluzione numerica delle equazioni di Richards difficile, in particolare in presenza di particolari \emph{spikes} in uno dei termini che la 
+compongono (ad esempio, una improvvisa variazione di \textbf{K} per un cambio di tipologia di suolo). È in questo punto che entrano in gioco degli opportuni schemi
+di linearizzazione: seguendo le orme dell'articolo di Casulli, adotteremo di seguito uno schema monodimensionale alle differenze finite utilizzando come schemi di 
+linearizzazione delle iterazioni ''alla Newton'' derivate linearizzando la differenza di contenuto d'acqua di due volumi combacianti ($\theta_{1}(\psi)$ e 
+$\theta_{2}(\psi)$), contemporaneamente garantendo la conservazione della massa innestando nel ciclo principale una \emph{iterazione di Picard} (si vedano 
+a questo proposito le appendici \ref{appendix:picard})
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Il metodo}
+\label{sec:method}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Come delucidato nelle appendici (\ref{appendix:richards}), l'equazione di Richards è dichiaratamente una equazione di conservazione della massa: di conseguenza,
+è necessario muoversi affinchè la stessa sia conservata in ogni momento del ciclo iterativo, e in ogni punto del dominio. 
+
+Usando una formulazione implicita (sia nel tempo che nello spazio), una linearizzazione 
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Implementazione: Java e \texttt{OMS3}}
+\label{sec:implementation}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\appendix
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setcounter{equation}{0}
+\section{Derivazione della forma $\psi-\theta$ dell'equazione di Richards}
+\label{appendix:richards}
+L'equazione di Richards è sostanzialmente una forma della generica \emph{equazione di diffusione}, nella quale viene descritta la variazione nel tempo e nello spazio di una quantità vettoriale (nel nostro caso, il flusso d'acqua $\vec{q}$\,) soggetta a delle limitazioni imposte sul flusso dalle condizioni al contorno (direttamente sul flusso o sulle sue derivate), e condizionata dalle proprietà del mezzo in cui varia (qui riassunte nel tensore $\mathbf{K}$).
+
+
+In generale quindi, l'equazione di Richards non è altro che l'applicazione del teorema della divergenza di Gauss: ragionando per un volume di controllo arbitrario, ho che:
+
+\begin{equation} 
+\label{eqn:gauss_int}
+\frac{\partial }{\partial t} \iiint_{V} \theta dV = \iint_{S} \vec{q}\cdot\mathbf{\hat{n}}dS
+\end{equation}
+
+Ovvero, la variazione nel tempo del contenuto d'acqua volumetrico $\theta$ equivale al flusso netto uscente $\vec{q}$ attraverso le facce del volume: in questa forma
+è particolarmente evidente la relazione tra il teorema di Gauss ed un bilancio di massa!
+
+Da semplici considerazioni geometriche (in sostanza si effettua un bilancio dei flussi su un volume di controllo cubico infinitesimo per ogni faccia), in forma differenziale lo stesso teorema risulta:
+
+\begin{equation}
+\label{eqn:gauss_dif}
+\frac{\partial \theta}{\partial t} = - \nabla\cdot\vec{q} 
+\end{equation}
+
+Ove l'operatore divergenza $\nabla \cdot $ fornisce la divergenza di un campo vettoriale (in uno spazio euclideo, 
+$\sum_{i=1}^{3}\frac{\partial}{\partial x_{i}}f(x_{1},x_{2},x_{3})\hat{x}_{i} $ ), ovvero la tendenza del campo a formare pozzi (punti
+di attrazione) e sorgenti (punti di fuga) nel suo dominio di definizione. 
+
+
+
+Esplorata la relazione tra flusso e contenuto d'acqua, ora serve una relazione costitutiva che leghi il primo con le forze che ne condizionano il moto: ovvero,
+è necessaria una relazione \emph{costitutiva} tra il flusso ed il mezzo in cui esso è libero di variare. 
+Questa relazione è data dalla legge empirica di Darcy, che si esplica nella forma:
+
+\begin{equation}
+\label{eqn:darcy_int}
+\frac{Q}{A}=\frac{-k}{\mu} \frac{(P_2 - P_1)}{L}' = q
+\end{equation}
+
+\dots ovvero, il flusso per unità di superficie attraverso un'area $A \lbrack m^{2} \rbrack$ è dato dal prodotto tra la permeabilità intrinseca del mezzo $k 
+\lbrack m^{2} \rbrack$ e il salto di pressione per unità di lunghezza $\rfrac{(P_2 - P_1)}{L} \lbrack \rfrac{N}{m^{2}} \rbrack$, il tutto diviso per la lunghezza 
+della colonna sulla quale avviene il salto di pressione $L \lbrack m \rbrack$ e per la viscosità $\mu \lbrack \rfrac{N}{sm^{2}} \rbrack$. 
+
+Facendo tendere a zero la lunghezza del salto di pressione, ottengo la stessa equazione in forma differenziale:
+
+\begin{equation}
+\label{eqn_darcy_dif}
+q= -\mathbf{K} \nabla \vec{P}  
+\end{equation}
+dove in \textbf{K}, la diffusività idraulica, si sono riassunte le opposte proprietà di permeabilità intrinseca del mezzo (nel caso generale, variabile da
+punto a punto nel materiale) e di viscosità del fluente (costante per composizioni del liquidi e per temperature poco variabili).
+Generalmente, la natura segue dei percorsi di minimo (di dissipazione, di energia, \dots), quindi tende a passare da uno stato a potenziale maggiore ad uno a 
+potenziale maggiore: da qua la necessità del segno negativo di fronte all'equazione, ad indicare che l'acqua fluisce nel verso di \emph{massimo decremento} del gradiente 
+delle pressioni.
+
+
+Combinando il teorema di Gauss e l'equazione di Darcy nelle loro forme differenziali, si ottiene:
+\begin{equation}
+\begin{align}
+\frac{\partial \theta}{\partial t} & = & - \nabla\cdot({-\mathbf{K} \nabla \vec{P}\,)} \\
+   & = & \nabla\cdot({\mathbf{K} \nabla \vec{P}\,)} \\
+   & = & \nabla\cdot\lbrack{\mathbf{K}(\psi) \nabla (\vec{P}+\vec{z}\,)\rbrack} \\
+   & = & \frac{\partial \theta (\psi)}{\partial t}
+\end{align}
+ \end{equation}
+ 
+ dove si è usata la scomposizione del gradiente delle pressioni nel gradiente del carico più la prevalenza, e si è esplicitata la dipendenza del contenuto 
+ d'acqua da $\psi$ in condizioni di suolo insaturo. Questa ulteriore dipendenza, non evidente dalla deduzione di cui sopra, è uno dei parametri del modello \texttt{OMS3}
+ implementato, ed è esplicitabile attraverso una descrizione parametrica delle SWRC, \emph{Soil Water Retention Curves}: si veda la prossima sezione per ulteriori 
+ dettagli sui modelli parametrici utilizzati, in particolare, sul modello di van Genuchten. 
+
+\section{Dall'infinitamente piccolo al finitamente piccolo: il metodo iterativo}
+\label{appendix:iterations}
+Come è realizzato il metodo iterativo, partendo dall'equazione di Richards in forma mista? In questa sezione si vuole porre una base 
+molto semplificata (il ''\emph{building block}'' del resto del metodo) che aiuti a capire come il problema della creazione del metodo iterativo possa essere
+affrontato, e allo stesso tempo, fornisce una buona intuizione di come il contenuto d'acqua possa variare, date certe condizioni al contorno, nel tempo e nello spazio.
+
+Esaminiamo quindi nel dettaglio una forte semplificazione dell'equazione di Richards, in questo caso quella che si ottiene:
+
+\begin{itemize}
+ \item Supponendo la colonna di suolo omogenea ($\mathbf{K(\psi)} = const = K$) e monodimensionale;
+ \item Supponendo che l'effetto della gravità sia completamente ininfluente sulla dinamica del problema, e quindi, che la colonna di suolo sia ribaltata
+ sull'orizzontale;
+ \item Supponendo che non vi siano sorgenti o pozzi all'interno del dominio;
+ \item Supponendo infine che $\theta(\psi) = \theta$.
+\end{itemize}
+
+Di conseguenza, la nostra equazione di Richards prende la forma, molto evocativa e probabilmente altrettanto conosciuta:
+
+\begin{equation}
+\label{eq:rich_sim}
+\begin{align}
+\frac{\partial \theta(\psi)}{\partial t} & = & \nabla\cdot\lbrack \textbf{K}(\psi)\nabla(\psi + z) \rbrack + S \\
+					  & = & K \frac{\partial^{2} \theta}{\partial x^{2}} 
+\end{align}   
+\end{equation}
+
+\dots che è una equazione differenziale ordinaria di secondo grado a coefficienti costanti (\emph{equazione di diffusione})! In questa forma, come vedremo più avanti,
+l'equazione di Richards è pure risolvibile in forma esatta: questa consapevolezza servirà come test di validità del metodo di discretizzazione utilizzato.
+
+Ora, discretizzando il dominio spaziale e temporale tramite differenze finite (sostanzialmente, costruendo l'espansione di Taylor dei vari termini), ottendo 
+per il problema in esame la discretizzazione:
+
+\begin{equation}
+\label{eq:rich_sim_discr}
+\begin{align}
+\frac{\theta_{i,j+1}-\theta_{i,j}}{\Delta t} & = & K \frac{\theta_{i-1,j} - 2\theta_{i,j} + \theta_{i+1,j}}{\Delta x^{2}}
+\end{align}
+\end{equation}
+
+
+\begin{figure}[h]
+ \centering 
+   \begin{tikzpicture}[point/.style={circle,inner sep=0pt,minimum size=2pt,fill=black}]
+      \begin{scope}[>=latex]          
+        \draw[-] (-5,0) --(3,0)node[midway,right] {};
+        \draw[-] (-5,1.5) --(3,1.5)node[midway,right] {};
+      \end{scope}
+
+       % LOWER: j, i-2<=i=<i+2 
+       \draw   (2,-0.3) node{$\theta_{i+2,j}$};
+       \draw   (-4,-0.3) node{$\theta_{i-2,j}$};       
+       \draw   (-4,0) node{$\bullet$};
+       \draw   (-2.5,0) node{$\bullet$};
+       \draw   (-2.5,-0.3) node{$\textcolor{red}{\theta_{i-1,j}}$};       
+       \draw   (-1,0) node{$\bullet$};
+       \draw   (-1,-0.3) node{$\textcolor{red}{\theta_{i,j}}$};       
+       \draw   (0.5,0) node{$\bullet$};
+       \draw   (0.5,-0.3) node{$\textcolor{red}{\theta_{i+1,j}}$};       
+       \draw   (2,0) node{$\bullet$};
+
+       % UPPER: j+1, i-2<=i=<i+2
+       \draw   (-4,1.2) node{$\theta_{i-2,j+1}$};       
+       \draw   (-4,1.5) node{{$\bullet$}};
+       \draw   (-2.5,1.2) node{$\theta_{i-1,j+1}$};         
+       \draw   (-2.5,1.5) node{{$\bullet$}};
+       \draw   (-1,1.2) node{$\textcolor{red}{\theta_{i,j+1}}$};         
+       \draw   (-1,1.5) node{$\bullet$};
+       \draw   (0.5,1.2) node{$\theta_{i+1,j+1}$};         
+       \draw   (0.5,1.5) node{$\bullet$};
+       \draw   (2,1.2) node{$\theta_{i+2,j+1}$};         
+       \draw   (2,1.5) node{$\bullet$};      
+    \end{tikzpicture}
+    
+\caption{\label{fig:mesh_1D} Una porzione della \emph{mesh} usata per il calcolo della diffusione di contenuto d'acqua nella colonna di suolo. 
+Le quantità utili vengono calcolate direttamente nei punti della \emph{mesh}, indicizzati con una $\theta_{i,j}$, ove l'indice \textbf{i} indica il 
+passo spaziale, mentre l'indice \textbf{j} quello temporale. In rosso sono evidenziati i punti utilizzati per il calcolo di $\theta$ ad un generico 
+passo i,j.}
+\end{figure}
+
+Un minimo riarrangiamento dei termini dell'equazione porta alle seguenti semplificazioni:
+
+\begin{equation}
+\label{eq:rich_sim_discr_lambda}
+\begin{align}
+\theta_{i,j+1}-\theta_{i,j} & = & (K\frac{\Delta t}{\Delta x^{2}})(\theta_{i-1,j} - 2\theta_{i,j} + \theta_{i+1,j}) \\
+			    & = &  \lambda (\theta_{i-1,j} - 2\theta_{i,j} + \theta_{i+1,j}) \\
+\theta_{i,j+1}		    & = &  \lambda\theta_{i-1,j}  +(1-2\lambda)\theta_{i,j} +\lambda\theta_{i+1,j}\\    
+\theta_{i,j}		    & = &  \lambda\theta_{i-1,j-1}  +(1-2\lambda)\theta_{i,j-1} +\lambda\theta_{i+1,j-1} \mathbf{*}\\    
+\end{align}
+\end{equation}
+\footnotesize{\textbf{*} Nell'ultimo passaggio, si è fatto scorrere indietro l'indice temporale della mesh di una unità}
+\normalsize
+\newline
+
+Il parametro $\lambda$ è caratteristico della discretizzazione usata e del problema fisico (tipo di terreno) trattato: in esso sono infatti riassunti 
+sia i parametri di cella della \emph{mesh} (la distanza sia spaziale che temporale, quindi le dimensioni della cella) sia il coefficiente di diffusività.
+Da notare poi che, con questa espressione, il contenuto d'acqua è immediatamente calcolabile per ogni cella del dominio ad ogni tempo \emph{t}: infatti,
+$\theta_{i,j}$ non dipende altro che dai valori dei punti di griglia nel suo intorno al tempo immediatamente precedente a quello per cui se ne vuole calcolare il
+valore.
+
+Sulla colonna di suolo scegliamo di imporre due semplici condizioni al contorno costanti nel tempo:
+\begin{description}
+\item[$\theta=\theta_{0}$] per $x=0, t\geq0$;
+\item[$\theta=\theta_{1}$] per $x=L, t\geq0$; 
+\item[$\theta=\theta_{1}$] per $t=0, 0\leq x\leq L$; 
+\end{description}
+
+Si riporta di seguito un esempio di semplice \emph{script} \texttt{MATLAB} che implementa efficacemente quanto discusso sopra:
+
+\lstinputlisting[language=Matlab,escapechar=@,firstline=14,lastline=91]{diffusione_richards.m}
+
+Di seguito si specificano i vari punti del codiche che meritano di essere, brevemente, approfonditi:
+
+\begin{description}
+ \item[\circled{1}\,] qui è possibile impostare i parametri dimensionali del problema, come la lunghezza della colonna, il tempo computazionale, 
+ la grandezza della \emph{mesh}, ecc\dots;
+ \item[\circled{2}\,] per approfondimenti sulla misura della permeabilità intrinseca dei suoli con metodi semplici, ma fattivamente applicabili anche
+ in contesti difficili senza alcun mezzo meccanico tranne un orologio, si veda \url{ftp://ftp.fao.org/fi/CDrom/FAO_Training/FAO_Training/General/x6706e/x6706e09.htm};
+ \item[\circled{3}\,] un test sulla convergenza è necessario: da come è stata scritta l'equazione \ref{eq:rich_sim_discr}, è chiaro (da $(1-2\lambda)\theta_{i,j-1}$)
+ come la definizione di $\lambda$ non possa coprire qualsiasi numero, ma anzi attestarsi su un campo piuttosto ristretto affinchè la convergenza del metodo sia 
+ garantita (al limite inferiore di $\lambda$, un termine della mesh scompare del tutto, mentre invece al limite superiore inizia ad entrare in gioco un termine 
+ \emph{negativo} non desiderabile;
+ \item[\circled{4}\,] a questo punto, la matrice che terrà traccia delle variazioni di $\theta$ nel tempo e nello spazio viene inizializzata, con le opportune
+ condizioni iniziali;
+ \item[\circled{5}\,] qui il calcolo del valore di contenuto d'acqua in un generico punto i,j della \emph{mesh}, come descritto dall'equazione \ref{eq:rich_sim_discr};
+ \item[\circled{6}\,] da questo punto in poi, il codice non fa altro che produrre i grafici sottoriportati. 
+\end{description}
+
+Il grafico che rappresenta l'infiltrazione all'interno della colonna di suolo nel tempo è il seguente:
+
+\newpage
+\begin{figure}[H]
+\input{infiltrazione.tikz} 
+\caption{Infiltrazione nella colonna d'acqua diagrammata per vari tempi}
+\end{figure}
+
+
+Da notare la somiglianza delle curve d'infiltrazione con quelle che descrivono l'andamento della temperatura nel tempo in una sbarra rigida innestata tra due 
+capi mantenuti a temperature $T_{1}$ e $T_{2}$ costanti nel tempo.
+
+ 
+ 
+\section{Conservare la massa: le iterazioni di Picard}
+\label{appendix:picard} 
+ 
+ 
+\section{Attacco alla variabilità: le SWRC}
+\label{appendix:swrc}
+
+
+\newpage
+\thispagestyle{empty}
+\printbibheading
+\printbibliography[type=article,heading=subbibliography,title={Articoli}]
+\printbibliography[type=book,heading=subbibliography,title={Libri}]
+\printbibliography[type=software,heading=subbibliography,title={Software}]
+
+\end{document}
+
+
+
+
+
+

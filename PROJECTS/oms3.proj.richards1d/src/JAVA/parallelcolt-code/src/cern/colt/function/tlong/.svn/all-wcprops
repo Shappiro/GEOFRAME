@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/function/tlong
+END
+IntLongProcedure.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/function/tlong/IntLongProcedure.java
+END
+LongIntProcedure.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/function/tlong/LongIntProcedure.java
+END
+LongFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/p/parallelcolt/code/!svn/ver/12/trunk/src/cern/colt/function/tlong/LongFunction.java
+END
+LongLongFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/p/parallelcolt/code/!svn/ver/12/trunk/src/cern/colt/function/tlong/LongLongFunction.java
+END
+LongComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/function/tlong/LongComparator.java
+END
+LongLongLongProcedure.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/p/parallelcolt/code/!svn/ver/12/trunk/src/cern/colt/function/tlong/LongLongLongProcedure.java
+END
+LongLongProcedure.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/p/parallelcolt/code/!svn/ver/12/trunk/src/cern/colt/function/tlong/LongLongProcedure.java
+END
+LongProcedure.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/colt/function/tlong/LongProcedure.java
+END
+IntIntLongFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/p/parallelcolt/code/!svn/ver/12/trunk/src/cern/colt/function/tlong/IntIntLongFunction.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/colt/function/tlong/package.html
+END

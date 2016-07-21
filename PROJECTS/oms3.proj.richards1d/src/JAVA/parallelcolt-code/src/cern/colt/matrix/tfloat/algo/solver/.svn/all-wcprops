@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/p/parallelcolt/code/!svn/ver/18/trunk/src/cern/colt/matrix/tfloat/algo/solver
+END
+FloatIR.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tfloat/algo/solver/FloatIR.java
+END
+MRNSDFloatIterationMonitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/algo/solver/MRNSDFloatIterationMonitor.java
+END
+FloatGivensRotation.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tfloat/algo/solver/FloatGivensRotation.java
+END
+DefaultFloatIterationMonitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/algo/solver/DefaultFloatIterationMonitor.java
+END
+AbstractFloatIterativeSolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tfloat/algo/solver/AbstractFloatIterativeSolver.java
+END
+FloatCGS.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tfloat/algo/solver/FloatCGS.java
+END
+FloatNotConvergedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tfloat/algo/solver/FloatNotConvergedException.java
+END
+FloatGMRES.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tfloat/algo/solver/FloatGMRES.java
+END
+FloatBiCGstab.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tfloat/algo/solver/FloatBiCGstab.java
+END
+NoFloatIterationReporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tfloat/algo/solver/NoFloatIterationReporter.java
+END
+CGLSFloatIterationMonitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/algo/solver/CGLSFloatIterationMonitor.java
+END
+FloatChebyshev.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tfloat/algo/solver/FloatChebyshev.java
+END
+FloatIterationReporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tfloat/algo/solver/FloatIterationReporter.java
+END
+FloatMRNSD.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tfloat/algo/solver/FloatMRNSD.java
+END
+IterativeSolverFloatNotConvergedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tfloat/algo/solver/IterativeSolverFloatNotConvergedException.java
+END
+FloatIterativeSolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tfloat/algo/solver/FloatIterativeSolver.java
+END
+FloatCGLS.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/algo/solver/FloatCGLS.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tfloat/algo/solver/package.html
+END
+FloatCG.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tfloat/algo/solver/FloatCG.java
+END
+AbstractFloatIterationMonitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tfloat/algo/solver/AbstractFloatIterationMonitor.java
+END
+HyBRFloatIterationMonitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/algo/solver/HyBRFloatIterationMonitor.java
+END
+FloatQMR.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/algo/solver/FloatQMR.java
+END
+FloatHyBR.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/p/parallelcolt/code/!svn/ver/18/trunk/src/cern/colt/matrix/tfloat/algo/solver/FloatHyBR.java
+END
+FloatBiCG.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tfloat/algo/solver/FloatBiCG.java
+END
+FloatIterationMonitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tfloat/algo/solver/FloatIterationMonitor.java
+END

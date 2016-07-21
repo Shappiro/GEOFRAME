@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/random/tfloat/engine
+END
+FloatMersenneTwister.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/random/tfloat/engine/FloatMersenneTwister.java
+END
+FRand.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/random/tfloat/engine/FRand.java
+END
+FloatRandomEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/jet/random/tfloat/engine/FloatRandomEngine.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/jet/random/tfloat/engine/package.html
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/parallelcolt/code/!svn/ver/8/trunk/benchmark/benchmarkResults
+END
+BenchmarkDenseDoubleMatrix1D.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/p/parallelcolt/code/!svn/ver/8/trunk/benchmark/benchmarkResults/BenchmarkDenseDoubleMatrix1D.txt
+END
+BenchmarkDenseDoubleMatrix2D.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/p/parallelcolt/code/!svn/ver/8/trunk/benchmark/benchmarkResults/BenchmarkDenseDoubleMatrix2D.txt
+END
+BenchmarkDenseDoubleMatrix3D.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/p/parallelcolt/code/!svn/ver/8/trunk/benchmark/benchmarkResults/BenchmarkDenseDoubleMatrix3D.txt
+END

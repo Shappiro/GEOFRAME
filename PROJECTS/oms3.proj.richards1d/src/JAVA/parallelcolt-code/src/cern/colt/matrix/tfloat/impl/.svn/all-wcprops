@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/impl
+END
+SparseCCFloatMatrix2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/impl/SparseCCFloatMatrix2D.java
+END
+SelectedSparseFloatMatrix1D.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/impl/SelectedSparseFloatMatrix1D.java
+END
+SelectedSparseFloatMatrix2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/impl/SelectedSparseFloatMatrix2D.java
+END
+SelectedDenseFloatMatrix1D.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/impl/SelectedDenseFloatMatrix1D.java
+END
+SelectedSparseFloatMatrix3D.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/impl/SelectedSparseFloatMatrix3D.java
+END
+SelectedDenseFloatMatrix2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/impl/SelectedDenseFloatMatrix2D.java
+END
+SelectedDenseFloatMatrix3D.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/impl/SelectedDenseFloatMatrix3D.java
+END
+DenseLargeFloatMatrix2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/impl/DenseLargeFloatMatrix2D.java
+END
+DelegateFloatMatrix1D.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/impl/DelegateFloatMatrix1D.java
+END
+DenseLargeFloatMatrix3D.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/impl/DenseLargeFloatMatrix3D.java
+END
+DelegateFloatMatrix2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/impl/DelegateFloatMatrix2D.java
+END
+DenseColumnFloatMatrix2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/impl/DenseColumnFloatMatrix2D.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/colt/matrix/tfloat/impl/package.html
+END
+DiagonalFloatMatrix2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/impl/DiagonalFloatMatrix2D.java
+END
+WrapperFloatMatrix1D.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/impl/WrapperFloatMatrix1D.java
+END
+SparseCCMFloatMatrix2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/impl/SparseCCMFloatMatrix2D.java
+END
+WrapperFloatMatrix2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/impl/WrapperFloatMatrix2D.java
+END
+WrapperFloatMatrix3D.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/impl/WrapperFloatMatrix3D.java
+END
+SparseRCFloatMatrix2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/impl/SparseRCFloatMatrix2D.java
+END
+SelectedDenseColumnFloatMatrix2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/impl/SelectedDenseColumnFloatMatrix2D.java
+END
+SparseFloatMatrix1D.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/impl/SparseFloatMatrix1D.java
+END
+DenseFloatMatrix1D.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/impl/DenseFloatMatrix1D.java
+END
+SparseFloatMatrix2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/impl/SparseFloatMatrix2D.java
+END
+DenseFloatMatrix2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/impl/DenseFloatMatrix2D.java
+END
+SparseFloatMatrix3D.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/impl/SparseFloatMatrix3D.java
+END
+DenseFloatMatrix3D.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/impl/DenseFloatMatrix3D.java
+END
+SparseRCMFloatMatrix2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/impl/SparseRCMFloatMatrix2D.java
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/list/tlong
+END
+DistinctNumberList.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/list/tlong/DistinctNumberList.java
+END
+LongArrayList.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/list/tlong/LongArrayList.java
+END
+LongListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/list/tlong/LongListAdapter.java
+END
+MinMaxNumberList.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/list/tlong/MinMaxNumberList.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/colt/list/tlong/package.html
+END
+AbstractLongList.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/list/tlong/AbstractLongList.java
+END
+SimpleLongArrayList.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/list/tlong/SimpleLongArrayList.java
+END

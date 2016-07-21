@@ -1,0 +1,164 @@
+\documentclass{beamer}
+\usepackage[italian]{babel}
+\usetheme[pageofpages=/,% String used between the current page and the
+                         % total page count.
+          bullet=circle,% Use circles instead of squares for bullets.
+          titleline=true,% Show a line below the frame title.
+          alternativetitlepage=true,% Use the fancy title page.
+          titlepagelogo=logo_uni.png,% Logo for the first page.
+         % watermark=./img/logo_uni.png,% Watermark used in every page.
+          watermarkheight=80px,% Height of the watermark.
+          watermarkheightmult=3,% The watermark image is 3 times bigger
+                                % than watermarkheight.
+          ]{Torino}
+
+\usepackage{float}
+\usepackage{tikz}
+\usepackage{subfig}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[percent]{overpic}
+\usepackage{listings}
+
+\usepackage{amssymb}
+\usepackage{amsmath}
+
+
+
+\usepackage{paralist}
+%\usepackage{tcolorbox}
+
+\graphicspath{{./img/}}
+
+\definecolor{coldef}{rgb}{0.0,0.80,0.00}
+\definecolor{coldeff}{rgb}{0.1,0.95,0.20}
+\setbeamercolor{postit}{fg=black,bg=coldef}
+\setbeamercolor{postut}{fg=black,bg=coldeff}
+
+\begin{document}
+\lstset{language=Matlab}
+
+\watermarkoff
+\author{Aaron Iemma}
+\title{{\LARGE Un problema di convergenza: implementazione di un metodo iterativo per la soluzione dell'equazione di Richards}}
+\institute{\textsc{UNITN - Universit\`a degli Studi di Trento} \newline \textsl{Dipartimento di Ingegneria Ambientale}}
+\date{\today}
+
+
+\frame{\titlepage} 
+%\frame{\frametitle{Indice}\tableofcontents} 
+
+
+%\section{Introduzione} 
+
+
+
+
+\section{Definizione del problema} 
+\frame{
+\frametitle{Definizione del problema}
+\setbeamercovered{transparent}
+Risoluzione dell'equazione di Richards in forma mista: \newline
+\pause
+\begin{equation}
+\frac{\partial \theta(\psi)}{\partial t} = \nabla\cdot\lbrack \textbf{K}(\psi)\nabla(\psi + z) \rbrack + S
+\end{equation}
+\pause
+\dots non lineare!
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\newline
+Servono:
+\begin{itemize}[<+->]
+\pause
+\item Metodo di linearizzazione
+\item Relazioni costitutive $\psi - \theta$
+\item Solutore per matrici definite positive
+\item \emph{Framework} di implementazione
+\end{itemize} 
+\end{column}
+
+\pause
+\begin{column}{0.5\textwidth}
+\begin{beamerboxesrounded}[upper=postit ,lower=postut ,shadow=true]{}
+\begin{inparaenum}[\itshape a\upshape)] \item Metodo di Newton; \item SWRC - \emph{Soil Water Retention Curves}; \item CG - \emph{Conjugate gradient}; \item \texttt{OMS3}\end{inparaenum}
+\end{beamerboxesrounded}
+\end{column}
+\end{columns}
+} % --- FRAME END
+
+
+\subsection{Il primo pezzo: un esempio semplice} 
+\frame{
+\frametitle{Il primo pezzo: un esempio semplice}
+\setbeamercovered{transparent}
+
+Un caso molto semplice: \emph{diffusione} (eh si!) monodimensionale con $\mathbf{K}(\psi)=K=cosst$ senza carico gravitativo 
+\pause
+\begin{equation}
+\label{eq:rich_sim}
+\begin{align}
+\frac{\partial \theta(\psi)}{\partial t} & = & K \frac{\partial^{2} \theta}{\partial x^{2}} 
+\end{align}   
+\end{equation}
+\pause
+Lo schema numerico \`e presto fatto!
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{figure}[H]
+ \centering 
+   \begin{tikzpicture}[point/.style={circle,inner sep=0pt,minimum size=1pt,fill=black},scale=.8,every node/.style={transform shape}]
+      \begin{scope}[>=latex]          
+        \draw[-] (-5,0) --(3,0)node[midway,right] {};
+        \draw[-] (-5,1.5) --(3,1.5)node[midway,right] {};
+        \draw[dashed] (0.5,2)--(2,2)node[midway,right] {};
+        \draw[dashed] (3.5,1.4)--(3.5,0.1)node[midway,right] {};
+      \end{scope}
+
+       % LOWER: j, i-2<=i=<i+2 
+       \draw   (2,-0.3) node{$\theta_{i+2,j}$};
+       \draw   (-4,-0.3) node{$\theta_{i-2,j}$};       
+       \draw   (-4,0) node{$\bullet$};
+       \draw   (-2.5,0) node{$\bullet$};
+       \draw   (-2.5,-0.3) node{$\textcolor{red}{\theta_{i-1,j}}$};       
+       \draw   (-1,0) node{$\bullet$};
+       \draw   (-1,-0.3) node{$\textcolor{red}{\theta_{i,j}}$};       
+       \draw   (0.5,0) node{$\bullet$};
+       \draw   (0.5,-0.3) node{$\textcolor{red}{\theta_{i+1,j}}$};       
+       \draw   (2,0) node{$\bullet$};
+
+       % UPPER: j+1, i-2<=i=<i+2
+       \draw   (-4,1.2) node{$\theta_{i-2,j+1}$};       
+       \draw   (-4,1.5) node{{$\bullet$}};
+       \draw   (-2.5,1.2) node{$\theta_{i-1,j+1}$};         
+       \draw   (-2.5,1.5) node{{$\bullet$}};
+       \draw   (-1,1.2) node{$\textcolor{red}{\theta_{i,j+1}}$};         
+       \draw   (-1,1.5) node{$\bullet$};
+       \draw   (0.5,1.2) node{$\theta_{i+1,j+1}$};         
+       \draw   (0.5,1.5) node{$\bullet$};
+       \draw   (2,1.2) node{$\theta_{i+2,j+1}$};         
+       \draw   (2,1.5) node{$\bullet$};  
+       
+       % DX and DT
+       \draw   (3.6,0.7) node{$\Delta x$}; 
+       \draw   (3.6,0.7) node{$\Delta x$}; 
+    \end{tikzpicture}
+\end{figure}
+\end{column}
+\begin{column}{0.5\textwidth}
+\begin{equation}
+\begin{aligned}
+ \theta_{i,j}  = \\ \lambda\theta_{i-1,j-1} + \\  
+(1-2\lambda)\theta_{i,j-1} +\\
+\lambda\theta_{i+1,j-1} \\
+\text{con } \lambda = K\frac{\Delta t}{\Delta x^{2}} 
+\end{aligned}
+\end{equation}
+\parbox{\textwidth}{\raggedright 
+}
+\end{column}
+\end{columns}
+} % --- END FRAME
+
+\end{document}

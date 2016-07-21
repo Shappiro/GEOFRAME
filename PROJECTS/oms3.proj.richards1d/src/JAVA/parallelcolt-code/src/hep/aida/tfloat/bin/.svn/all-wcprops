@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/parallelcolt/code/!svn/ver/14/trunk/src/hep/aida/tfloat/bin
+END
+FloatBinFunction1D.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/p/parallelcolt/code/!svn/ver/6/trunk/src/hep/aida/tfloat/bin/FloatBinFunction1D.java
+END
+StaticFloatBin1D.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/p/parallelcolt/code/!svn/ver/14/trunk/src/hep/aida/tfloat/bin/StaticFloatBin1D.java
+END
+FloatBinFunctions1D.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/parallelcolt/code/!svn/ver/9/trunk/src/hep/aida/tfloat/bin/FloatBinFunctions1D.java
+END
+MightyStaticFloatBin1D.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/p/parallelcolt/code/!svn/ver/14/trunk/src/hep/aida/tfloat/bin/MightyStaticFloatBin1D.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/p/parallelcolt/code/!svn/ver/6/trunk/src/hep/aida/tfloat/bin/package.html
+END
+AbstractFloatBin.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/p/parallelcolt/code/!svn/ver/14/trunk/src/hep/aida/tfloat/bin/AbstractFloatBin.java
+END
+FloatBinBinFunction1D.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/p/parallelcolt/code/!svn/ver/6/trunk/src/hep/aida/tfloat/bin/FloatBinBinFunction1D.java
+END
+QuantileFloatBin1D.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/parallelcolt/code/!svn/ver/14/trunk/src/hep/aida/tfloat/bin/QuantileFloatBin1D.java
+END
+AbstractFloatBin1D.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/parallelcolt/code/!svn/ver/14/trunk/src/hep/aida/tfloat/bin/AbstractFloatBin1D.java
+END
+DynamicFloatBin1D.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/p/parallelcolt/code/!svn/ver/14/trunk/src/hep/aida/tfloat/bin/DynamicFloatBin1D.java
+END

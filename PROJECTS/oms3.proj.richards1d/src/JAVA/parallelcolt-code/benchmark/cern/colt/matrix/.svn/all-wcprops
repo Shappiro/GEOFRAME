@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/parallelcolt/code/!svn/ver/14/trunk/benchmark/cern/colt/matrix
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/p/parallelcolt/code/!svn/ver/2/trunk/benchmark/cern/colt/matrix/package.html
+END
+BenchmarkMatrix.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/parallelcolt/code/!svn/ver/14/trunk/benchmark/cern/colt/matrix/BenchmarkMatrix.java
+END
+BenchmarkMatrixKernel.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/p/parallelcolt/code/!svn/ver/14/trunk/benchmark/cern/colt/matrix/BenchmarkMatrixKernel.java
+END
+Double2DProcedure.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/p/parallelcolt/code/!svn/ver/9/trunk/benchmark/cern/colt/matrix/Double2DProcedure.java
+END
+TimerProcedure.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/p/parallelcolt/code/!svn/ver/9/trunk/benchmark/cern/colt/matrix/TimerProcedure.java
+END

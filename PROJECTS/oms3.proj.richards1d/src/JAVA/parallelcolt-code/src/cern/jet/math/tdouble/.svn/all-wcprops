@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/math/tdouble
+END
+DoubleFunctions.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/math/tdouble/DoubleFunctions.java
+END
+Polynomial.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/p/parallelcolt/code/!svn/ver/9/trunk/src/cern/jet/math/tdouble/Polynomial.java
+END
+DoubleArithmetic.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/math/tdouble/DoubleArithmetic.java
+END
+DoubleConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/jet/math/tdouble/DoubleConstants.java
+END
+DoublePlusMultFirst.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/p/parallelcolt/code/!svn/ver/9/trunk/src/cern/jet/math/tdouble/DoublePlusMultFirst.java
+END
+DoubleMult.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/jet/math/tdouble/DoubleMult.java
+END
+DoublePlusMultSecond.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/p/parallelcolt/code/!svn/ver/9/trunk/src/cern/jet/math/tdouble/DoublePlusMultSecond.java
+END
+Bessel.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/jet/math/tdouble/Bessel.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/jet/math/tdouble/package.html
+END

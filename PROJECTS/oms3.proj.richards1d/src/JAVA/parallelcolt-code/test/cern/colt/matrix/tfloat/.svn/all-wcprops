@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat
+END
+FloatMatrix1DTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/FloatMatrix1DTest.java
+END
+FloatMatrix2DTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/FloatMatrix2DTest.java
+END
+FloatMatrix3DTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/FloatMatrix3DTest.java
+END
+AllFloatMatrixTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/p/parallelcolt/code/!svn/ver/11/trunk/test/cern/colt/matrix/tfloat/AllFloatMatrixTests.java
+END

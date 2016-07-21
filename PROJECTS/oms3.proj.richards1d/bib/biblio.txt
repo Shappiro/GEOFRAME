@@ -1,0 +1,8 @@
+1) AboutHydrology
+	http://abouthydrology.blogspot.it/2013/08/richards-1d-integration.html
+	http://abouthydrology.blogspot.it/2011/05/programming-and-doing-matrix-algebra-in.html
+2) Java
+	http://www.tutorialspoint.com/java/index.htm	
+3) Libraries
+	Matrix algebra (in particular, conjugate gradient method)
+		https://sites.google.com/site/piotrwendykier/software/parallelcolt

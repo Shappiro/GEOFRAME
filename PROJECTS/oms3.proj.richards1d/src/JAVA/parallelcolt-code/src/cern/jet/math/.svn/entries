@@ -1,0 +1,46 @@
+10
+
+dir
+22
+http://svn.code.sf.net/p/parallelcolt/code/trunk/src/cern/jet/math
+http://svn.code.sf.net/p/parallelcolt/code
+
+
+
+2009-08-27T18:28:28.289965Z
+14
+wendykierp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15dbba18-d538-4469-9168-ef31400fdc88
+
+tfloat
+dir
+
+tdouble
+dir
+
+tint
+dir
+
+tdcomplex
+dir
+
+tfcomplex
+dir
+
+tlong
+dir
+

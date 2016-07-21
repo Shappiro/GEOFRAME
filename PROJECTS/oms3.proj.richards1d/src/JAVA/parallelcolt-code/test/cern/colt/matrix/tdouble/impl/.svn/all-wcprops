@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tdouble/impl
+END
+DenseLargeDoubleMatrix2DViewTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tdouble/impl/DenseLargeDoubleMatrix2DViewTest.java
+END
+DenseLargeDoubleMatrix3DViewTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tdouble/impl/DenseLargeDoubleMatrix3DViewTest.java
+END
+DenseColumnDoubleMatrix2DViewTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tdouble/impl/DenseColumnDoubleMatrix2DViewTest.java
+END
+DiagonalDoubleMatrix2DViewTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tdouble/impl/DiagonalDoubleMatrix2DViewTest.java
+END
+DenseLargeDoubleMatrix2DTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tdouble/impl/DenseLargeDoubleMatrix2DTest.java
+END
+DenseLargeDoubleMatrix3DTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tdouble/impl/DenseLargeDoubleMatrix3DTest.java
+END
+SparseCCMDoubleMatrix2DViewTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tdouble/impl/SparseCCMDoubleMatrix2DViewTest.java
+END
+DenseColumnDoubleMatrix2DTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tdouble/impl/DenseColumnDoubleMatrix2DTest.java
+END
+SparseRCDoubleMatrix2DViewTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tdouble/impl/SparseRCDoubleMatrix2DViewTest.java
+END
+DiagonalDoubleMatrix2DTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tdouble/impl/DiagonalDoubleMatrix2DTest.java
+END
+SparseCCMDoubleMatrix2DTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tdouble/impl/SparseCCMDoubleMatrix2DTest.java
+END
+SparseRCDoubleMatrix2DTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tdouble/impl/SparseRCDoubleMatrix2DTest.java
+END
+SparseDoubleMatrix1DViewTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tdouble/impl/SparseDoubleMatrix1DViewTest.java
+END
+DenseDoubleMatrix1DViewTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tdouble/impl/DenseDoubleMatrix1DViewTest.java
+END
+SparseDoubleMatrix2DViewTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tdouble/impl/SparseDoubleMatrix2DViewTest.java
+END
+DenseDoubleMatrix2DViewTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tdouble/impl/DenseDoubleMatrix2DViewTest.java
+END
+SparseDoubleMatrix3DViewTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tdouble/impl/SparseDoubleMatrix3DViewTest.java
+END
+DenseDoubleMatrix3DViewTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tdouble/impl/DenseDoubleMatrix3DViewTest.java
+END
+SparseRCMDoubleMatrix2DViewTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tdouble/impl/SparseRCMDoubleMatrix2DViewTest.java
+END
+SparseDoubleMatrix1DTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tdouble/impl/SparseDoubleMatrix1DTest.java
+END
+DenseDoubleMatrix1DTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tdouble/impl/DenseDoubleMatrix1DTest.java
+END
+SparseDoubleMatrix2DTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tdouble/impl/SparseDoubleMatrix2DTest.java
+END
+SparseCCDoubleMatrix2DViewTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tdouble/impl/SparseCCDoubleMatrix2DViewTest.java
+END
+DenseDoubleMatrix2DTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tdouble/impl/DenseDoubleMatrix2DTest.java
+END
+SparseDoubleMatrix3DTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tdouble/impl/SparseDoubleMatrix3DTest.java
+END
+DenseDoubleMatrix3DTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tdouble/impl/DenseDoubleMatrix3DTest.java
+END
+SparseRCMDoubleMatrix2DTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tdouble/impl/SparseRCMDoubleMatrix2DTest.java
+END
+SparseCCDoubleMatrix2DTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tdouble/impl/SparseCCDoubleMatrix2DTest.java
+END

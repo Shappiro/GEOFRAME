@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/p/parallelcolt/code/!svn/ver/14/trunk/benchmark/cern/colt/matrix/tdcomplex/impl
+END
+BenchmarkDenseDComplexMatrix1D.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/p/parallelcolt/code/!svn/ver/14/trunk/benchmark/cern/colt/matrix/tdcomplex/impl/BenchmarkDenseDComplexMatrix1D.java
+END
+BenchmarkDenseDComplexMatrix2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/p/parallelcolt/code/!svn/ver/11/trunk/benchmark/cern/colt/matrix/tdcomplex/impl/BenchmarkDenseDComplexMatrix2D.java
+END
+BenchmarkDenseDComplexMatrix3D.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/p/parallelcolt/code/!svn/ver/11/trunk/benchmark/cern/colt/matrix/tdcomplex/impl/BenchmarkDenseDComplexMatrix3D.java
+END

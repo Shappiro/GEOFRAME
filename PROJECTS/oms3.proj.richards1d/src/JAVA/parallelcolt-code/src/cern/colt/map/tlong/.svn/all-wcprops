@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/map/tlong
+END
+AbstractIntLongMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/map/tlong/AbstractIntLongMap.java
+END
+AbstractLongIntMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/map/tlong/AbstractLongIntMap.java
+END
+OpenIntLongHashMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/map/tlong/OpenIntLongHashMap.java
+END
+OpenLongIntHashMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/map/tlong/OpenLongIntHashMap.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/parallelcolt/code/!svn/ver/12/trunk/src/cern/colt/map/tlong/package.html
+END
+AbstractLongLongMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/map/tlong/AbstractLongLongMap.java
+END
+OpenLongLongHashMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/map/tlong/OpenLongLongHashMap.java
+END

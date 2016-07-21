@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/list/tdouble
+END
+DoubleArrayList.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/list/tdouble/DoubleArrayList.java
+END
+DoubleListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/list/tdouble/DoubleListAdapter.java
+END
+AbstractDoubleList.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/list/tdouble/AbstractDoubleList.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/colt/list/tdouble/package.html
+END

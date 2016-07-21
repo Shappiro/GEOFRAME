@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/p/parallelcolt/code/!svn/ver/18/trunk/test/cern/colt/matrix/tdouble/algo
+END
+TestQR.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/p/parallelcolt/code/!svn/ver/11/trunk/test/cern/colt/matrix/tdouble/algo/TestQR.java
+END
+TestNormInfinity.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/p/parallelcolt/code/!svn/ver/11/trunk/test/cern/colt/matrix/tdouble/algo/TestNormInfinity.java
+END

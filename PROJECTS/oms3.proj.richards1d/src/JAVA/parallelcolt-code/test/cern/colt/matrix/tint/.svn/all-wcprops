@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tint
+END
+IntMatrix1DTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tint/IntMatrix1DTest.java
+END
+IntMatrix2DTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tint/IntMatrix2DTest.java
+END
+IntMatrix3DTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tint/IntMatrix3DTest.java
+END
+AllIntMatrixTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tint/AllIntMatrixTests.java
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/p/parallelcolt/code/!svn/ver/18/trunk/lib
+END
+junit.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/p/parallelcolt/code/!svn/ver/15/trunk/lib/junit.jar
+END
+csparsej.jar
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/p/parallelcolt/code/!svn/ver/15/trunk/lib/csparsej.jar
+END
+netlib-java.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/p/parallelcolt/code/!svn/ver/15/trunk/lib/netlib-java.jar
+END
+arpack-combo.jar
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/p/parallelcolt/code/!svn/ver/15/trunk/lib/arpack-combo.jar
+END
+optimization.jar
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/p/parallelcolt/code/!svn/ver/15/trunk/lib/optimization.jar
+END
+jplasma.jar
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/p/parallelcolt/code/!svn/ver/18/trunk/lib/jplasma.jar
+END
+jtransforms.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/p/parallelcolt/code/!svn/ver/15/trunk/lib/jtransforms.jar
+END

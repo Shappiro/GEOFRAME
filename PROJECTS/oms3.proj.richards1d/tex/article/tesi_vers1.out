@@ -1,0 +1,11 @@
+\BOOKMARK [1][-]{section.1}{1. Introduzione}{}% 1
+\BOOKMARK [1][-]{section.2}{2. Il metodo}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{2.1. Iterazioni esterne: il metodo di Picard}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{2.2. Iterazioni interne: lineraizzazione con il metodo di Newton e risoluzione con il metodo del gradiente coniugato}{section.2}% 4
+\BOOKMARK [1][-]{section.3}{3. Implementazione: Java e OMS3}{}% 5
+\BOOKMARK [1][-]{appendix.Alph1}{Appendice A. Derivazione della forma - dell'equazione di Richards}{}% 6
+\BOOKMARK [1][-]{appendix.Alph2}{Appendice B. Dall'infinitamente piccolo al finitamente piccolo: il metodo iterativo}{}% 7
+\BOOKMARK [1][-]{appendix.Alph3}{Appendice C. Conservare la massa: le iterazioni di Picard}{}% 8
+\BOOKMARK [1][-]{appendix.Alph4}{Appendice D. Attacco alla variabilit\340: le SWRC}{}% 9
+\BOOKMARK [1][-]{section*.5}{Riferimenti bibliografici}{}% 10
+\BOOKMARK [2][-]{section*.6}{Articoli}{section*.5}% 11

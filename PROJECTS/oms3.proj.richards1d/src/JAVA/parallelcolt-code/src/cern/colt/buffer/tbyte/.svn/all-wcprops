@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/buffer/tbyte
+END
+ByteBuffer2DConsumer.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/buffer/tbyte/ByteBuffer2DConsumer.java
+END
+ByteBuffer3DConsumer.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/buffer/tbyte/ByteBuffer3DConsumer.java
+END
+ByteBuffer2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/buffer/tbyte/ByteBuffer2D.java
+END
+ByteBuffer3D.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/buffer/tbyte/ByteBuffer3D.java
+END
+ByteBufferConsumer.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/buffer/tbyte/ByteBufferConsumer.java
+END
+ByteBuffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/buffer/tbyte/ByteBuffer.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/buffer/tbyte/package.html
+END

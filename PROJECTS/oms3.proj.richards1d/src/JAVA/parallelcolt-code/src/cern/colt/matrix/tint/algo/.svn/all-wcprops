@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tint/algo
+END
+IntMatrix1DComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/p/parallelcolt/code/!svn/ver/9/trunk/src/cern/colt/matrix/tint/algo/IntMatrix1DComparator.java
+END
+IntMatrix2DComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/p/parallelcolt/code/!svn/ver/9/trunk/src/cern/colt/matrix/tint/algo/IntMatrix2DComparator.java
+END
+IntFormatter.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tint/algo/IntFormatter.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/colt/matrix/tint/algo/package.html
+END
+IntProperty.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tint/algo/IntProperty.java
+END
+IntSorting.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tint/algo/IntSorting.java
+END

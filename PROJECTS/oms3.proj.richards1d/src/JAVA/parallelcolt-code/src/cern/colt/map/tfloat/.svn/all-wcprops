@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/map/tfloat
+END
+OpenFloatLongHashMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/map/tfloat/OpenFloatLongHashMap.java
+END
+OpenLongFloatHashMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/map/tfloat/OpenLongFloatHashMap.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/colt/map/tfloat/package.html
+END
+AbstractFloatIntMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/map/tfloat/AbstractFloatIntMap.java
+END
+AbstractIntFloatMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/map/tfloat/AbstractIntFloatMap.java
+END
+OpenFloatIntHashMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/map/tfloat/OpenFloatIntHashMap.java
+END
+OpenIntFloatHashMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/map/tfloat/OpenIntFloatHashMap.java
+END
+AbstractFloatLongMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/map/tfloat/AbstractFloatLongMap.java
+END
+AbstractLongFloatMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/map/tfloat/AbstractLongFloatMap.java
+END

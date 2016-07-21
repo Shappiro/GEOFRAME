@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/parallelcolt/code/!svn/ver/14/trunk/src/hep/aida/tdouble/bin
+END
+MightyStaticDoubleBin1D.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/p/parallelcolt/code/!svn/ver/14/trunk/src/hep/aida/tdouble/bin/MightyStaticDoubleBin1D.java
+END
+AbstractDoubleBin.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/parallelcolt/code/!svn/ver/14/trunk/src/hep/aida/tdouble/bin/AbstractDoubleBin.java
+END
+DoubleBinBinFunction1D.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/p/parallelcolt/code/!svn/ver/6/trunk/src/hep/aida/tdouble/bin/DoubleBinBinFunction1D.java
+END
+QuantileDoubleBin1D.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/p/parallelcolt/code/!svn/ver/14/trunk/src/hep/aida/tdouble/bin/QuantileDoubleBin1D.java
+END
+AbstractDoubleBin1D.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/p/parallelcolt/code/!svn/ver/14/trunk/src/hep/aida/tdouble/bin/AbstractDoubleBin1D.java
+END
+DynamicDoubleBin1D.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/p/parallelcolt/code/!svn/ver/14/trunk/src/hep/aida/tdouble/bin/DynamicDoubleBin1D.java
+END
+DoubleBinFunction1D.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/p/parallelcolt/code/!svn/ver/6/trunk/src/hep/aida/tdouble/bin/DoubleBinFunction1D.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/parallelcolt/code/!svn/ver/6/trunk/src/hep/aida/tdouble/bin/package.html
+END
+StaticDoubleBin1D.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/parallelcolt/code/!svn/ver/14/trunk/src/hep/aida/tdouble/bin/StaticDoubleBin1D.java
+END
+DoubleBinFunctions1D.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/p/parallelcolt/code/!svn/ver/9/trunk/src/hep/aida/tdouble/bin/DoubleBinFunctions1D.java
+END

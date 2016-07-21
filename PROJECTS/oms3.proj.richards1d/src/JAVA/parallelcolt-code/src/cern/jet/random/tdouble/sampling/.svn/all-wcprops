@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/random/tdouble/sampling
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/jet/random/tdouble/sampling/package.html
+END
+DoubleRandomSampler.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/random/tdouble/sampling/DoubleRandomSampler.java
+END
+DoubleRandomSamplingAssistant.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/random/tdouble/sampling/DoubleRandomSamplingAssistant.java
+END
+WeightedDoubleRandomSampler.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/random/tdouble/sampling/WeightedDoubleRandomSampler.java
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/math/tfloat
+END
+FloatMult.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/jet/math/tfloat/FloatMult.java
+END
+FloatPlusMultSecond.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/p/parallelcolt/code/!svn/ver/9/trunk/src/cern/jet/math/tfloat/FloatPlusMultSecond.java
+END
+FloatFunctions.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/math/tfloat/FloatFunctions.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/jet/math/tfloat/package.html
+END
+FloatArithmetic.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/jet/math/tfloat/FloatArithmetic.java
+END
+FloatConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/jet/math/tfloat/FloatConstants.java
+END
+FloatPlusMultFirst.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/jet/math/tfloat/FloatPlusMultFirst.java
+END

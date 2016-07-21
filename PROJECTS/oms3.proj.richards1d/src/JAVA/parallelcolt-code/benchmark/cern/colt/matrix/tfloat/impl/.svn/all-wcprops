@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/p/parallelcolt/code/!svn/ver/14/trunk/benchmark/cern/colt/matrix/tfloat/impl
+END
+BenchmarkSparseCCFloatMatrix2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/p/parallelcolt/code/!svn/ver/14/trunk/benchmark/cern/colt/matrix/tfloat/impl/BenchmarkSparseCCFloatMatrix2D.java
+END
+BenchmarkFloatFFT.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/p/parallelcolt/code/!svn/ver/14/trunk/benchmark/cern/colt/matrix/tfloat/impl/BenchmarkFloatFFT.java
+END
+BenchmarkDenseFloatMatrix1D.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/p/parallelcolt/code/!svn/ver/14/trunk/benchmark/cern/colt/matrix/tfloat/impl/BenchmarkDenseFloatMatrix1D.java
+END
+BenchmarkDenseFloatMatrix2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/p/parallelcolt/code/!svn/ver/11/trunk/benchmark/cern/colt/matrix/tfloat/impl/BenchmarkDenseFloatMatrix2D.java
+END
+BenchmarkDenseFloatMatrix3D.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/p/parallelcolt/code/!svn/ver/11/trunk/benchmark/cern/colt/matrix/tfloat/impl/BenchmarkDenseFloatMatrix3D.java
+END
+AccuracyCheckFloatFFT.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/p/parallelcolt/code/!svn/ver/14/trunk/benchmark/cern/colt/matrix/tfloat/impl/AccuracyCheckFloatFFT.java
+END
+BenchmarkSparseRCFloatMatrix2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/p/parallelcolt/code/!svn/ver/14/trunk/benchmark/cern/colt/matrix/tfloat/impl/BenchmarkSparseRCFloatMatrix2D.java
+END

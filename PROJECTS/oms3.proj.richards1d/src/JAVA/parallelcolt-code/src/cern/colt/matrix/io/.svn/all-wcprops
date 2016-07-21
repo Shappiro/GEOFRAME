@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/io
+END
+MatrixVectorReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/p/parallelcolt/code/!svn/ver/9/trunk/src/cern/colt/matrix/io/MatrixVectorReader.java
+END
+VectorSize.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/colt/matrix/io/VectorSize.java
+END
+VectorInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/io/VectorInfo.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/colt/matrix/io/package.html
+END
+MatrixSize.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/p/parallelcolt/code/!svn/ver/9/trunk/src/cern/colt/matrix/io/MatrixSize.java
+END
+MatrixInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/io/MatrixInfo.java
+END
+MatrixVectorWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/p/parallelcolt/code/!svn/ver/9/trunk/src/cern/colt/matrix/io/MatrixVectorWriter.java
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/algo/solver/preconditioner
+END
+FloatSSOR.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tfloat/algo/solver/preconditioner/FloatSSOR.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/colt/matrix/tfloat/algo/solver/preconditioner/package.html
+END
+FloatILU.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tfloat/algo/solver/preconditioner/FloatILU.java
+END
+FloatIdentity.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tfloat/algo/solver/preconditioner/FloatIdentity.java
+END
+FloatILUT.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/algo/solver/preconditioner/FloatILUT.java
+END
+FloatDiagonal.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tfloat/algo/solver/preconditioner/FloatDiagonal.java
+END
+FloatICC.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tfloat/algo/solver/preconditioner/FloatICC.java
+END
+FloatAMG.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tfloat/algo/solver/preconditioner/FloatAMG.java
+END
+FloatPreconditioner.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tfloat/algo/solver/preconditioner/FloatPreconditioner.java
+END

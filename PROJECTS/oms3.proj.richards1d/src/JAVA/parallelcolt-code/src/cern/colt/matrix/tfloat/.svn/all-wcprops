@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/parallelcolt/code/!svn/ver/18/trunk/src/cern/colt/matrix/tfloat
+END
+FloatMatrix2DProcedure.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/colt/matrix/tfloat/FloatMatrix2DProcedure.java
+END
+FloatMatrix3DProcedure.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/colt/matrix/tfloat/FloatMatrix3DProcedure.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/colt/matrix/tfloat/package.html
+END
+FloatMatrix1D.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/FloatMatrix1D.java
+END
+FloatMatrix2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/FloatMatrix2D.java
+END
+FloatMatrix3D.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/FloatMatrix3D.java
+END
+FloatFactory1D.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tfloat/FloatFactory1D.java
+END
+FloatFactory2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/FloatFactory2D.java
+END
+FloatFactory3D.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tfloat/FloatFactory3D.java
+END
+FloatMatrix1DProcedure.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/colt/matrix/tfloat/FloatMatrix1DProcedure.java
+END

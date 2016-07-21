@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tbit
+END
+QuickBitVector.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tbit/QuickBitVector.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/colt/matrix/tbit/package.html
+END
+BitVector.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tbit/BitVector.java
+END
+BitMatrix.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tbit/BitMatrix.java
+END

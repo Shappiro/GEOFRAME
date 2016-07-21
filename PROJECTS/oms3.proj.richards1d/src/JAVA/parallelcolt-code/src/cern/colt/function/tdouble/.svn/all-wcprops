@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/function/tdouble
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/colt/function/tdouble/package.html
+END
+DoubleDoubleProcedure.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/colt/function/tdouble/DoubleDoubleProcedure.java
+END
+DoubleFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/colt/function/tdouble/DoubleFunction.java
+END
+DoubleProcedure.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/colt/function/tdouble/DoubleProcedure.java
+END
+Double27Function.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/function/tdouble/Double27Function.java
+END
+IntDoubleFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/colt/function/tdouble/IntDoubleFunction.java
+END
+IntDoubleProcedure.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/colt/function/tdouble/IntDoubleProcedure.java
+END
+DoubleIntProcedure.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/colt/function/tdouble/DoubleIntProcedure.java
+END
+DoubleComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/p/parallelcolt/code/!svn/ver/9/trunk/src/cern/colt/function/tdouble/DoubleComparator.java
+END
+LongDoubleProcedure.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/colt/function/tdouble/LongDoubleProcedure.java
+END
+DoubleLongProcedure.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/function/tdouble/DoubleLongProcedure.java
+END
+Double5Function.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/colt/function/tdouble/Double5Function.java
+END
+IntIntDoubleFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/colt/function/tdouble/IntIntDoubleFunction.java
+END
+IntIntDoubleProcedure.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/colt/function/tdouble/IntIntDoubleProcedure.java
+END
+Double9Function.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/function/tdouble/Double9Function.java
+END
+DoubleDoubleFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/colt/function/tdouble/DoubleDoubleFunction.java
+END

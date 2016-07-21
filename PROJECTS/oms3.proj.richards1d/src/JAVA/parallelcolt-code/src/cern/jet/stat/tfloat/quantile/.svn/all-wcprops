@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/stat/tfloat/quantile
+END
+FloatBuffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/stat/tfloat/quantile/FloatBuffer.java
+END
+FloatQuantileEstimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/stat/tfloat/quantile/FloatQuantileEstimator.java
+END
+FloatQuantileFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/p/parallelcolt/code/!svn/ver/9/trunk/src/cern/jet/stat/tfloat/quantile/FloatQuantileFinder.java
+END
+UnknownFloatQuantileEstimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/stat/tfloat/quantile/UnknownFloatQuantileEstimator.java
+END
+ExactFloatQuantileFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/stat/tfloat/quantile/ExactFloatQuantileFinder.java
+END
+FloatQuantileFinderFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/jet/stat/tfloat/quantile/FloatQuantileFinderFactory.java
+END
+FloatBufferSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/stat/tfloat/quantile/FloatBufferSet.java
+END
+FloatQuantileCalc.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/stat/tfloat/quantile/FloatQuantileCalc.java
+END
+FloatEquiDepthHistogram.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/jet/stat/tfloat/quantile/FloatEquiDepthHistogram.java
+END
+KnownFloatQuantileEstimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/stat/tfloat/quantile/KnownFloatQuantileEstimator.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/jet/stat/tfloat/quantile/package.html
+END

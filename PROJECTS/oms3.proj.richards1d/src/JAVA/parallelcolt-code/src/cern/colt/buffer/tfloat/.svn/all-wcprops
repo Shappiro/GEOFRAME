@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/buffer/tfloat
+END
+FloatBuffer2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/buffer/tfloat/FloatBuffer2D.java
+END
+FloatBuffer3D.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/buffer/tfloat/FloatBuffer3D.java
+END
+FloatBufferConsumer.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/colt/buffer/tfloat/FloatBufferConsumer.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/colt/buffer/tfloat/package.html
+END
+FloatBuffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/buffer/tfloat/FloatBuffer.java
+END
+FloatBuffer2DConsumer.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/p/parallelcolt/code/!svn/ver/9/trunk/src/cern/colt/buffer/tfloat/FloatBuffer2DConsumer.java
+END
+FloatBuffer3DConsumer.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/p/parallelcolt/code/!svn/ver/9/trunk/src/cern/colt/buffer/tfloat/FloatBuffer3DConsumer.java
+END

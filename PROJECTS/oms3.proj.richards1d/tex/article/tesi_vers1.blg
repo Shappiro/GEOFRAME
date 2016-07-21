@@ -1,0 +1,65 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: tesi_vers1.aux
+The style file: biblatex.bst
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: tesi_vers1-blx.bib
+Database file #2: tesi_bibliography.bib
+I was expecting a `,' or a `}'---line 84 of file tesi_bibliography.bib
+ : 
+ : author = "M. Th. van Genuchten",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 98 of file tesi_bibliography.bib
+ : 
+ : author = "Vincenzo Casulli and Roy A. Walters",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 119 of file tesi_bibliography.bib
+ : 
+ : author = "J. M. Hyman and M. Shashkov",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Biblatex version: 1.7
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+You've used 2 entries,
+            6019 wiz_defined-function locations,
+            1128 strings with 8261 characters,
+and the built_in function-call counts, 4245 in all, are:
+= -- 152
+> -- 167
+< -- 30
++ -- 70
+- -- 69
+* -- 269
+:= -- 467
+add.period$ -- 0
+call.type$ -- 2
+change.case$ -- 10
+chr.to.int$ -- 34
+cite$ -- 2
+duplicate$ -- 349
+empty$ -- 406
+format.name$ -- 69
+if$ -- 957
+int.to.chr$ -- 0
+int.to.str$ -- 2
+missing$ -- 0
+newline$ -- 48
+num.names$ -- 41
+pop$ -- 354
+preamble$ -- 1
+purify$ -- 13
+quote$ -- 0
+skip$ -- 255
+stack$ -- 0
+substring$ -- 134
+swap$ -- 120
+text.length$ -- 46
+text.prefix$ -- 1
+top$ -- 1
+type$ -- 64
+warning$ -- 0
+while$ -- 67
+width$ -- 0
+write$ -- 45
+(There were 3 error messages)

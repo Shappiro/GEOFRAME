@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/buffer/tboolean
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/buffer/tboolean/package.html
+END
+BooleanBuffer2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/buffer/tboolean/BooleanBuffer2D.java
+END
+BooleanBuffer3D.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/buffer/tboolean/BooleanBuffer3D.java
+END
+BooleanBufferConsumer.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/buffer/tboolean/BooleanBufferConsumer.java
+END
+BooleanBuffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/buffer/tboolean/BooleanBuffer.java
+END
+BooleanBuffer2DConsumer.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/buffer/tboolean/BooleanBuffer2DConsumer.java
+END
+BooleanBuffer3DConsumer.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/buffer/tboolean/BooleanBuffer3DConsumer.java
+END

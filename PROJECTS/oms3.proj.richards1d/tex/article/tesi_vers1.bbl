@@ -1,0 +1,49 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 1.7 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{art:casulli}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Casulli}{C.}%
+     {Vincenzo}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zanolli}{Z.}%
+     {Paola}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CVZP1}
+  \strng{fullhash}{CVZP1}
+  \field{sortinit}{C}
+  \verb{doi}
+  \verb 10.1137/100786320
+  \endverb
+  \field{number}{32}
+  \field{title}{A nested Newton-type algorithm for finite volume methods
+  solving Richardsì equation in mixed form}
+  \field{volume}{4}
+  \field{journaltitle}{SIAM, Society for Industrial and Applied Mathematics}
+  \field{year}{2010}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

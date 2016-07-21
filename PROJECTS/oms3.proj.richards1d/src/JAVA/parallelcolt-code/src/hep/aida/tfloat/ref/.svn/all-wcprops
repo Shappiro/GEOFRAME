@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/parallelcolt/code/!svn/ver/14/trunk/src/hep/aida/tfloat/ref
+END
+FloatHistogram.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/p/parallelcolt/code/!svn/ver/11/trunk/src/hep/aida/tfloat/ref/FloatHistogram.java
+END
+FloatHistogram1DContents.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/p/parallelcolt/code/!svn/ver/11/trunk/src/hep/aida/tfloat/ref/FloatHistogram1DContents.java
+END
+FloatHistogram1D.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/p/parallelcolt/code/!svn/ver/14/trunk/src/hep/aida/tfloat/ref/FloatHistogram1D.java
+END
+FloatHistogram2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/p/parallelcolt/code/!svn/ver/14/trunk/src/hep/aida/tfloat/ref/FloatHistogram2D.java
+END
+FloatFixedAxis.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/p/parallelcolt/code/!svn/ver/11/trunk/src/hep/aida/tfloat/ref/FloatFixedAxis.java
+END
+FloatHistogram3D.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/p/parallelcolt/code/!svn/ver/14/trunk/src/hep/aida/tfloat/ref/FloatHistogram3D.java
+END
+FloatAbstractHistogram1D.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/p/parallelcolt/code/!svn/ver/11/trunk/src/hep/aida/tfloat/ref/FloatAbstractHistogram1D.java
+END
+FloatAbstractHistogram2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/p/parallelcolt/code/!svn/ver/11/trunk/src/hep/aida/tfloat/ref/FloatAbstractHistogram2D.java
+END
+FloatConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/p/parallelcolt/code/!svn/ver/11/trunk/src/hep/aida/tfloat/ref/FloatConverter.java
+END
+FloatAbstractHistogram3D.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/p/parallelcolt/code/!svn/ver/11/trunk/src/hep/aida/tfloat/ref/FloatAbstractHistogram3D.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/p/parallelcolt/code/!svn/ver/6/trunk/src/hep/aida/tfloat/ref/package.html
+END
+FloatVariableAxis.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/p/parallelcolt/code/!svn/ver/11/trunk/src/hep/aida/tfloat/ref/FloatVariableAxis.java
+END

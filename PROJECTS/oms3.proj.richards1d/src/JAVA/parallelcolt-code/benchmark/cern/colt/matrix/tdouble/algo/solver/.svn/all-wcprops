@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/p/parallelcolt/code/!svn/ver/14/trunk/benchmark/cern/colt/matrix/tdouble/algo/solver
+END
+DoubleCGILUBenchmark.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/p/parallelcolt/code/!svn/ver/14/trunk/benchmark/cern/colt/matrix/tdouble/algo/solver/DoubleCGILUBenchmark.java
+END
+DoubleHyBRBenchmark.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/p/parallelcolt/code/!svn/ver/14/trunk/benchmark/cern/colt/matrix/tdouble/algo/solver/DoubleHyBRBenchmark.java
+END
+DoubleCGILUTBenchmark.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/p/parallelcolt/code/!svn/ver/14/trunk/benchmark/cern/colt/matrix/tdouble/algo/solver/DoubleCGILUTBenchmark.java
+END
+DoubleIterativeSolverBenchmark.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/p/parallelcolt/code/!svn/ver/14/trunk/benchmark/cern/colt/matrix/tdouble/algo/solver/DoubleIterativeSolverBenchmark.java
+END
+DoubleCGDiagonalBenchmark.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/p/parallelcolt/code/!svn/ver/14/trunk/benchmark/cern/colt/matrix/tdouble/algo/solver/DoubleCGDiagonalBenchmark.java
+END
+DoubleCGICCBenchmark.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/p/parallelcolt/code/!svn/ver/14/trunk/benchmark/cern/colt/matrix/tdouble/algo/solver/DoubleCGICCBenchmark.java
+END
+AllDoubleSolversBenchmarks.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/p/parallelcolt/code/!svn/ver/8/trunk/benchmark/cern/colt/matrix/tdouble/algo/solver/AllDoubleSolversBenchmarks.java
+END
+DoubleCGBenchmark.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/p/parallelcolt/code/!svn/ver/14/trunk/benchmark/cern/colt/matrix/tdouble/algo/solver/DoubleCGBenchmark.java
+END
+DoubleCGAMGBenchmark.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/p/parallelcolt/code/!svn/ver/14/trunk/benchmark/cern/colt/matrix/tdouble/algo/solver/DoubleCGAMGBenchmark.java
+END
+DoubleCGSSORBenchmark.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/p/parallelcolt/code/!svn/ver/14/trunk/benchmark/cern/colt/matrix/tdouble/algo/solver/DoubleCGSSORBenchmark.java
+END

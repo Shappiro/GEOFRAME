@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tlong/algo
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/p/parallelcolt/code/!svn/ver/12/trunk/src/cern/colt/matrix/tlong/algo/package.html
+END
+LongMatrix1DComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/p/parallelcolt/code/!svn/ver/12/trunk/src/cern/colt/matrix/tlong/algo/LongMatrix1DComparator.java
+END
+LongMatrix2DComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/p/parallelcolt/code/!svn/ver/12/trunk/src/cern/colt/matrix/tlong/algo/LongMatrix2DComparator.java
+END
+LongFormatter.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tlong/algo/LongFormatter.java
+END
+LongProperty.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tlong/algo/LongProperty.java
+END
+LongSorting.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tlong/algo/LongSorting.java
+END

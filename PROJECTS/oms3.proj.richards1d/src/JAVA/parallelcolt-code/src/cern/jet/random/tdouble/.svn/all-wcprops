@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/parallelcolt/code/!svn/ver/21/trunk/src/cern/jet/random/tdouble
+END
+AbstractDoubleDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/random/tdouble/AbstractDoubleDistribution.java
+END
+PoissonSlow.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/random/tdouble/PoissonSlow.java
+END
+AbstractContinousDoubleDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/jet/random/tdouble/AbstractContinousDoubleDistribution.java
+END
+Hyperbolic.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/random/tdouble/Hyperbolic.java
+END
+Distributions.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/p/parallelcolt/code/!svn/ver/9/trunk/src/cern/jet/random/tdouble/Distributions.java
+END
+Logarithmic.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/random/tdouble/Logarithmic.java
+END
+ExponentialPower.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/random/tdouble/ExponentialPower.java
+END
+BreitWignerMeanSquare.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/random/tdouble/BreitWignerMeanSquare.java
+END
+VonMises.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/random/tdouble/VonMises.java
+END
+Zeta.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/random/tdouble/Zeta.java
+END
+Empirical.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/random/tdouble/Empirical.java
+END
+Stack.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/jet/random/tdouble/Stack.java
+END
+DoubleUniform.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/random/tdouble/DoubleUniform.java
+END
+StudentT.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/random/tdouble/StudentT.java
+END
+EmpiricalWalker.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/random/tdouble/EmpiricalWalker.java
+END
+Beta.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/random/tdouble/Beta.java
+END
+NegativeBinomial.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/random/tdouble/NegativeBinomial.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/jet/random/tdouble/package.html
+END
+BreitWigner.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/random/tdouble/BreitWigner.java
+END
+Gamma.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/random/tdouble/Gamma.java
+END
+ChiSquare.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/random/tdouble/ChiSquare.java
+END
+Exponential.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/random/tdouble/Exponential.java
+END
+AbstractDiscreteDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/random/tdouble/AbstractDiscreteDistribution.java
+END
+HyperGeometric.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/random/tdouble/HyperGeometric.java
+END
+Fun.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/jet/random/tdouble/Fun.java
+END
+Normal.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/p/parallelcolt/code/!svn/ver/21/trunk/src/cern/jet/random/tdouble/Normal.java
+END
+Binomial.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/random/tdouble/Binomial.java
+END
+Poisson.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/random/tdouble/Poisson.java
+END

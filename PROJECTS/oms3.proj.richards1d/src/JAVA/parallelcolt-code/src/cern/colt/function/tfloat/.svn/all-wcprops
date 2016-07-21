@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/function/tfloat
+END
+FloatFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/colt/function/tfloat/FloatFunction.java
+END
+FloatComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/p/parallelcolt/code/!svn/ver/9/trunk/src/cern/colt/function/tfloat/FloatComparator.java
+END
+FloatLongProcedure.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/function/tfloat/FloatLongProcedure.java
+END
+FloatProcedure.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/colt/function/tfloat/FloatProcedure.java
+END
+LongFloatProcedure.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/colt/function/tfloat/LongFloatProcedure.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/colt/function/tfloat/package.html
+END
+FloatFloatFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/colt/function/tfloat/FloatFloatFunction.java
+END
+IntIntFloatFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/colt/function/tfloat/IntIntFloatFunction.java
+END
+Float27Function.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/function/tfloat/Float27Function.java
+END
+Float9Function.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/function/tfloat/Float9Function.java
+END
+FloatFloatProcedure.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/colt/function/tfloat/FloatFloatProcedure.java
+END
+FloatIntProcedure.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/colt/function/tfloat/FloatIntProcedure.java
+END
+IntFloatProcedure.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/colt/function/tfloat/IntFloatProcedure.java
+END

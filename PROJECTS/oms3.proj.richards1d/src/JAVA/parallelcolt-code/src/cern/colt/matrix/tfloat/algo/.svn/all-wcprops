@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/p/parallelcolt/code/!svn/ver/18/trunk/src/cern/colt/matrix/tfloat/algo
+END
+FloatFormatter.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tfloat/algo/FloatFormatter.java
+END
+FloatProperty.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/algo/FloatProperty.java
+END
+FloatSorting.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/algo/FloatSorting.java
+END
+FloatPartitioning.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tfloat/algo/FloatPartitioning.java
+END
+FloatStatistic.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/algo/FloatStatistic.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tfloat/algo/package.html
+END
+FloatMatrix2DMatrix2DFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/colt/matrix/tfloat/algo/FloatMatrix2DMatrix2DFunction.java
+END
+SparseFloatAlgebra.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tfloat/algo/SparseFloatAlgebra.java
+END
+DenseFloatAlgebra.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/p/parallelcolt/code/!svn/ver/18/trunk/src/cern/colt/matrix/tfloat/algo/DenseFloatAlgebra.java
+END
+FloatBlas.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tfloat/algo/FloatBlas.java
+END
+FloatMatrix1DComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/p/parallelcolt/code/!svn/ver/9/trunk/src/cern/colt/matrix/tfloat/algo/FloatMatrix1DComparator.java
+END
+FloatStencil.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tfloat/algo/FloatStencil.java
+END
+SmpFloatBlas.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tfloat/algo/SmpFloatBlas.java
+END
+FloatMatrix2DComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/p/parallelcolt/code/!svn/ver/9/trunk/src/cern/colt/matrix/tfloat/algo/FloatMatrix2DComparator.java
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/jet/stat
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/jet/stat/package.html
+END
+Utils.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/parallelcolt/code/!svn/ver/9/trunk/src/cern/jet/stat/Utils.java
+END
+BufferSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/jet/stat/BufferSet.java
+END
+Buffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/jet/stat/Buffer.java
+END

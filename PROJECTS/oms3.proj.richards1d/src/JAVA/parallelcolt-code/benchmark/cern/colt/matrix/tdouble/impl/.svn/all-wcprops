@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/p/parallelcolt/code/!svn/ver/14/trunk/benchmark/cern/colt/matrix/tdouble/impl
+END
+BenchmarkSparseCCDoubleMatrix2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/p/parallelcolt/code/!svn/ver/14/trunk/benchmark/cern/colt/matrix/tdouble/impl/BenchmarkSparseCCDoubleMatrix2D.java
+END
+BenchmarkDoubleFFT.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/p/parallelcolt/code/!svn/ver/14/trunk/benchmark/cern/colt/matrix/tdouble/impl/BenchmarkDoubleFFT.java
+END
+BenchmarkMatrix2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/p/parallelcolt/code/!svn/ver/14/trunk/benchmark/cern/colt/matrix/tdouble/impl/BenchmarkMatrix2D.java
+END
+Benchmark.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/p/parallelcolt/code/!svn/ver/11/trunk/benchmark/cern/colt/matrix/tdouble/impl/Benchmark.java
+END
+BenchmarkDenseDoubleMatrix1D.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/p/parallelcolt/code/!svn/ver/14/trunk/benchmark/cern/colt/matrix/tdouble/impl/BenchmarkDenseDoubleMatrix1D.java
+END
+BenchmarkDenseDoubleMatrix2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/p/parallelcolt/code/!svn/ver/14/trunk/benchmark/cern/colt/matrix/tdouble/impl/BenchmarkDenseDoubleMatrix2D.java
+END
+BenchmarkDenseDoubleMatrix3D.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/p/parallelcolt/code/!svn/ver/11/trunk/benchmark/cern/colt/matrix/tdouble/impl/BenchmarkDenseDoubleMatrix3D.java
+END
+AccuracyCheckDoubleFFT.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/p/parallelcolt/code/!svn/ver/14/trunk/benchmark/cern/colt/matrix/tdouble/impl/AccuracyCheckDoubleFFT.java
+END
+BenchmarkSparseRCDoubleMatrix2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/p/parallelcolt/code/!svn/ver/14/trunk/benchmark/cern/colt/matrix/tdouble/impl/BenchmarkSparseRCDoubleMatrix2D.java
+END

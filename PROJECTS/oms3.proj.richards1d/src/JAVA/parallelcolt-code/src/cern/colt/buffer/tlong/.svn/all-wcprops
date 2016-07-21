@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/buffer/tlong
+END
+LongBuffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/buffer/tlong/LongBuffer.java
+END
+LongBuffer2DConsumer.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/buffer/tlong/LongBuffer2DConsumer.java
+END
+LongBuffer3DConsumer.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/buffer/tlong/LongBuffer3DConsumer.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/buffer/tlong/package.html
+END
+LongBuffer2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/buffer/tlong/LongBuffer2D.java
+END
+LongBuffer3D.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/buffer/tlong/LongBuffer3D.java
+END
+LongBufferConsumer.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/buffer/tlong/LongBufferConsumer.java
+END

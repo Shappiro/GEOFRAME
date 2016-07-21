@@ -1,0 +1,353 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver
+END
+FloatBiCGICCTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatBiCGICCTest.java
+END
+FloatGMRESSSORTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatGMRESSSORTest.java
+END
+FloatIRILUTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatIRILUTest.java
+END
+FloatQMRAMGTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatQMRAMGTest.java
+END
+FloatCGSILUTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatCGSILUTest.java
+END
+FloatChebyshevSSORTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatChebyshevSSORTest.java
+END
+FloatCGILUTTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatCGILUTTest.java
+END
+FloatIterativeSolverTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatIterativeSolverTest.java
+END
+FloatGMRESILUTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatGMRESILUTest.java
+END
+FloatBiCGstabILUTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatBiCGstabILUTest.java
+END
+FloatCGTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatCGTest.java
+END
+FloatBiCGAMGTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatBiCGAMGTest.java
+END
+FloatQMRDiagonalTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatQMRDiagonalTest.java
+END
+FloatChebyshevICCTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatChebyshevICCTest.java
+END
+FloatBiCGILUTTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatBiCGILUTTest.java
+END
+FloatBiCGTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatBiCGTest.java
+END
+FloatChebyshevAMGTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatChebyshevAMGTest.java
+END
+FloatQMRSSORTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatQMRSSORTest.java
+END
+FloatCGICCTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatCGICCTest.java
+END
+FloatIRDiagonalTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatIRDiagonalTest.java
+END
+FloatQMRILUTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatQMRILUTest.java
+END
+FloatCGSDiagonalTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatCGSDiagonalTest.java
+END
+AllFloatMatrixSolverTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/p/parallelcolt/code/!svn/ver/11/trunk/test/cern/colt/matrix/tfloat/algo/solver/AllFloatMatrixSolverTests.java
+END
+FloatGMRESILUTTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatGMRESILUTTest.java
+END
+FloatBiCGstabDiagonalTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatBiCGstabDiagonalTest.java
+END
+FloatGMRESTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatGMRESTest.java
+END
+FloatBiCGILUTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatBiCGILUTest.java
+END
+FloatCGAMGTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatCGAMGTest.java
+END
+FloatChebyshevILUTTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatChebyshevILUTTest.java
+END
+FloatChebyshevTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatChebyshevTest.java
+END
+FloatIRSSORTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatIRSSORTest.java
+END
+FloatCGSSSORTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatCGSSSORTest.java
+END
+FloatBiCGstabSSORTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatBiCGstabSSORTest.java
+END
+FloatCGDiagonalTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatCGDiagonalTest.java
+END
+FloatIRICCTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatIRICCTest.java
+END
+FloatChebyshevILUTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatChebyshevILUTest.java
+END
+FloatCGSICCTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatCGSICCTest.java
+END
+FloatGMRESICCTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatGMRESICCTest.java
+END
+FloatBiCGstabICCTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatBiCGstabICCTest.java
+END
+FloatQMRILUTTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatQMRILUTTest.java
+END
+FloatIRAMGTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatIRAMGTest.java
+END
+FloatQMRTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatQMRTest.java
+END
+FloatCGSSORTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatCGSSORTest.java
+END
+FloatCGSAMGTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatCGSAMGTest.java
+END
+FloatGMRESAMGTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatGMRESAMGTest.java
+END
+FloatCGILUTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatCGILUTest.java
+END
+FloatBiCGDiagonalTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatBiCGDiagonalTest.java
+END
+FloatBiCGstabAMGTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatBiCGstabAMGTest.java
+END
+FloatIRILUTTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatIRILUTTest.java
+END
+FloatCGSILUTTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatCGSILUTTest.java
+END
+FloatIRTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatIRTest.java
+END
+FloatBiCGSSORTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatBiCGSSORTest.java
+END
+FloatCGSTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatCGSTest.java
+END
+FloatBiCGstabILUTTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatBiCGstabILUTTest.java
+END
+FloatGMRESDiagonalTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatGMRESDiagonalTest.java
+END
+FloatBiCGstabTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatBiCGstabTest.java
+END
+FloatQMRICCTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatQMRICCTest.java
+END
+FloatChebyshevDiagonalTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/p/parallelcolt/code/!svn/ver/14/trunk/test/cern/colt/matrix/tfloat/algo/solver/FloatChebyshevDiagonalTest.java
+END

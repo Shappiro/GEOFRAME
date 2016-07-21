@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/p/parallelcolt/code/!svn/ver/22/trunk/src/cern/colt/matrix/tdcomplex
+END
+DComplexMatrix1DProcedure.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/colt/matrix/tdcomplex/DComplexMatrix1DProcedure.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/p/parallelcolt/code/!svn/ver/6/trunk/src/cern/colt/matrix/tdcomplex/package.html
+END
+DComplexMatrix2DProcedure.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/colt/matrix/tdcomplex/DComplexMatrix2DProcedure.java
+END
+DComplexMatrix1D.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tdcomplex/DComplexMatrix1D.java
+END
+DComplexMatrix2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tdcomplex/DComplexMatrix2D.java
+END
+DComplexMatrix3D.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tdcomplex/DComplexMatrix3D.java
+END
+DComplexFactory1D.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/p/parallelcolt/code/!svn/ver/22/trunk/src/cern/colt/matrix/tdcomplex/DComplexFactory1D.java
+END
+DComplexFactory2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tdcomplex/DComplexFactory2D.java
+END
+DComplexFactory3D.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tdcomplex/DComplexFactory3D.java
+END

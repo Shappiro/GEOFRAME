@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tdouble/algo/solver/preconditioner
+END
+DoubleILU.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tdouble/algo/solver/preconditioner/DoubleILU.java
+END
+DoubleIdentity.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tdouble/algo/solver/preconditioner/DoubleIdentity.java
+END
+DoubleILUT.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/p/parallelcolt/code/!svn/ver/14/trunk/src/cern/colt/matrix/tdouble/algo/solver/preconditioner/DoubleILUT.java
+END
+DoubleDiagonal.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tdouble/algo/solver/preconditioner/DoubleDiagonal.java
+END
+DoubleICC.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tdouble/algo/solver/preconditioner/DoubleICC.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/colt/matrix/tdouble/algo/solver/preconditioner/package.html
+END
+DoubleAMG.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tdouble/algo/solver/preconditioner/DoubleAMG.java
+END
+DoublePreconditioner.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/p/parallelcolt/code/!svn/ver/8/trunk/src/cern/colt/matrix/tdouble/algo/solver/preconditioner/DoublePreconditioner.java
+END
+DoubleSSOR.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/p/parallelcolt/code/!svn/ver/11/trunk/src/cern/colt/matrix/tdouble/algo/solver/preconditioner/DoubleSSOR.java
+END

@@ -1,0 +1,4 @@
+\beamer@endinputifotherversion {3.10pt}
+\select@language {italian}
+\beamer@sectionintoc {1}{Definizione del problema}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Il primo pezzo: un esempio semplice}{11}{0}{1}

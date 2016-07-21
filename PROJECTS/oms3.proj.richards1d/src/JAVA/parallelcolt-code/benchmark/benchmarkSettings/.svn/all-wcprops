@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/parallelcolt/code/!svn/ver/8/trunk/benchmark/benchmarkSettings
+END
+settings1D.txt
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/p/parallelcolt/code/!svn/ver/8/trunk/benchmark/benchmarkSettings/settings1D.txt
+END
+settings2D.txt
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/p/parallelcolt/code/!svn/ver/8/trunk/benchmark/benchmarkSettings/settings2D.txt
+END
+settings3D.txt
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/p/parallelcolt/code/!svn/ver/8/trunk/benchmark/benchmarkSettings/settings3D.txt
+END
+iterativeSolverSettings.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/p/parallelcolt/code/!svn/ver/8/trunk/benchmark/benchmarkSettings/iterativeSolverSettings.txt
+END
