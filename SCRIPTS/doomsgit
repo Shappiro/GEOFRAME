@@ -1,0 +1,55 @@
+#!/bin/bash
+#############################################################################
+#
+# dooms.sh
+#
+# SCRIPT:   	doomsgit
+# AUTHOR(S):	Aaron Iemma - 21/07/2016
+# PURPOSE:  	Commits changes to git repo configured in the system
+# LICENCE:		BEER-WARE
+#
+# ----------------------------------------------------------------------------
+#  "THE BEER-WARE LICENSE" (Revision 42):
+#  <wolfs.bleat@gmail.com> wrote this file. As long as you retain this notice, you
+#  can do whatever you want with this stuff. If we meet some day, and you think
+#  this stuff is worth it, you can buy me a beer in return. Aaron Iemma
+#  ----------------------------------------------------------------------------
+# /#
+#############################################################################
+
+
+# git config --global user.name "Shappiro"
+# git config --global user.email "iemma.ron@gmail.com"
+# Security through SSH (mkdir ~/.ssh | chmod 700 ~/.ssh | ssh-keygen -t rsa) 
+# pairs, added to GIT repo for auth
+
+if [ "$1" == "-h" ] || [ "$1" == "--help" ] || [ "$#" -lt 1 ]; then
+  echo " 
+  Wrapper for pushing changes to THE repo
+  usage: ./doomsgit.sh [-m] comment 
+    -m comment for this commit
+  "
+  exit 0
+fi
+
+THISDIR=$PWD
+BASEDIR="$HOME/OMS/GEOFRAME"
+while [[ $# -gt 0 ]]
+do
+	key="$1"
+	case $key in
+	    -m|-c|-comment)
+
+		cd $BASEDIR # Cannot find a way to commit adds to repo without having to cd inside the repo dir... 
+					# Had to resolve on this brutal workaround
+		git add -A $BASEDIR
+		git -C $BASEDIR commit -m "$2"
+		git -C $BASEDIR push origin master
+	    cd $THISDIR
+	    ;;
+
+	    *)
+	    ;;
+	esac
+	shift
+done		
