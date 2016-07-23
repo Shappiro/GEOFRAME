@@ -9,8 +9,13 @@ Tested backends:
 * *[JRI](https://rforge.net/JRI/)*, which works through [REngine](https://github.com/s-u/REngine).
 	* No compilation problem reported, but class does not seem to instantiate correctly
 	during class launch. Also, lacks of thoroug documentation.
+	Base class to be loaded:
+	~~~
+	import org.rosuda.JRI.Rengine;
+	~~~
 
 Backends in testing:
-* *[Renjin](http://www.renjin.org/)*. Seems promising
+* *[Renjin](http://www.renjin.org/)*. Seems promising:
+
 > The biggest advantage of Renjin is that the R interpreter itself is a Java module which can be seamlessly integrated into any Java application. This dispenses with the need to load dynamic libraries or to provide some form of communication between separate processes.These types of interfaces are often the source of much agony because they place very specific demands on the environment in which they run.
 
