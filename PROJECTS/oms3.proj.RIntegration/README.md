@@ -20,8 +20,9 @@ Tested backends:
 	* [TUTORIAL](http://docs.renjin.org/en/latest/introduction.html)
 	* [PACKAGES](http://docs.renjin.org/en/latest/interactive/index.html): 
 	> From within Renjin’s REPL, there is no `install.packages()` function: the first time you try to load a package with `library()`, Renjin will check the repository for a package with the matching name and download it to a local repository located in `~/.m2/repository`.
-
+	* From [PROJECT SETUP](http://docs.renjin.org/en/latest/library/project-setup.html), it seems that for maximum flexibility I'll have to use a single JAR file if I'm not willing to use any project organizer (like Maven, or Eclipse). ANT should suffice as a build tool, with the automatically generated project directory //TODO: verify this
+	  
 From within Renjin’s REPL, there is no install.packages() function: the first time you try to load a package with library(), Renjin will check the repository for a package with the matching name and download it to a local repository located in ~/.m2/repository.
 
 Backends in testing:
-* 
+* -
