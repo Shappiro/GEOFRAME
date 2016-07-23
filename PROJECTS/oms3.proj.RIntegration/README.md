@@ -11,5 +11,6 @@ Tested backends:
 	during class launch. Also, lacks of thoroug documentation.
 
 Backends in testing:
-* *[Renjin](http://www.renjin.org/)*
+* *[Renjin](http://www.renjin.org/)*. Seems promising
+>The biggest advantage of Renjin is that the R interpreter itself is a Java module which can be seamlessly integrated into any Java >application. This dispenses with the need to load dynamic libraries or to provide some form of communication between separate processes. >These types of interfaces are often the source of much agony because they place very specific demands on the environment in which they run.
 
