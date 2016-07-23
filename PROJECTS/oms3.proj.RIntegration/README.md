@@ -18,15 +18,16 @@ Tested backends:
 
 > "The biggest advantage of Renjin is that the R interpreter itself is a Java module which can be seamlessly integrated into any Java application. This dispenses with the need to load dynamic libraries or to provide some form of communication between separate processes.These types of interfaces are often the source of much agony because they place very specific demands on the environment in which they run."
 
-	* [TUTORIAL](http://docs.renjin.org/en/latest/introduction.html)
-	* [INSTALLATION PROCEDURE]()
-		* `echo "deb https://nexus.bedatadriven.com/content/repositories/renjin-release/ ./" > /etc/apt/sources.list.d/renjin.list`
-		* `sudo apt-get update`
-		* `sudo apt-get install renjin`
-	* [PACKAGES](http://docs.renjin.org/en/latest/interactive/index.html): 
-	> From within Renjin’s REPL, there is no `install.packages()` function: the first time you try to load a package with `library()`, Renjin will check the repository for a package with the matching name and download it to a local repository located in `~/.m2/repository`.
-	* From [PROJECT SETUP](http://docs.renjin.org/en/latest/library/project-setup.html), it seems that for maximum flexibility I'll have to use a single JAR file if I'm not willing to use any project organizer (like Maven, or Eclipse). ANT should suffice as a build tool, with the automatically generated project directory //TODO: verify this
-	* [EXAMPLE CODE](http://docs.renjin.org/en/latest/library/evaluating.html)
+* [TUTORIAL](http://docs.renjin.org/en/latest/introduction.html)
+* [INSTALLATION PROCEDURE]()
+	* `echo "deb https://nexus.bedatadriven.com/content/repositories/renjin-release/ ./" > /etc/apt/sources.list.d/renjin.list`
+	* `sudo apt-get update`
+	* `sudo apt-get install renjin`
+* [PACKAGES](http://docs.renjin.org/en/latest/interactive/index.html): 
+> From within Renjin’s REPL, there is no `install.packages()` function: the first time you try to load a package with `library()`, Renjin will check the repository for a package with the matching name and download it to a local repository located in `~/.m2/repository`.
+
+* From [PROJECT SETUP](http://docs.renjin.org/en/latest/library/project-setup.html), it seems that for maximum flexibility I'll have to use a single JAR file if I'm not willing to use any project organizer (like Maven, or Eclipse). ANT should suffice as a build tool, with the automatically generated project directory //TODO: verify this
+* [EXAMPLE CODE](http://docs.renjin.org/en/latest/library/evaluating.html)
 		  
 > From within Renjin’s REPL, there is no install.packages() function: the first time you try to load a package with library(), Renjin will check the repository for a package with the matching name and download it to a local repository located in ~/.m2/repository.
 
