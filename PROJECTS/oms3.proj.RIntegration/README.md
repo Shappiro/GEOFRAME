@@ -14,10 +14,14 @@ Tested backends:
 	```java
 	import org.rosuda.JRI.Rengine;
 	```
-
-Backends in testing:
-* *[Renjin](http://www.renjin.org/)*. Seems promising:
+* Definitely going to use *[Renjin](http://www.renjin.org/)*. Seems promising:
 
 > "The biggest advantage of Renjin is that the R interpreter itself is a Java module which can be seamlessly integrated into any Java application. This dispenses with the need to load dynamic libraries or to provide some form of communication between separate processes.These types of interfaces are often the source of much agony because they place very specific demands on the environment in which they run."
+	* [TUTORIAL](http://docs.renjin.org/en/latest/introduction.html)
+	* [PACKAGES](http://docs.renjin.org/en/latest/interactive/index.html): 
+	> From within Renjin’s REPL, there is no `install.packages()` function: the first time you try to load a package with `library()`, Renjin will check the repository for a package with the matching name and download it to a local repository located in `~/.m2/repository`.
 
-Also, [it has a wonderful documentation](http://docs.renjin.org/en/latest/introduction.html)
+From within Renjin’s REPL, there is no install.packages() function: the first time you try to load a package with library(), Renjin will check the repository for a package with the matching name and download it to a local repository located in ~/.m2/repository.
+
+Backends in testing:
+* 
