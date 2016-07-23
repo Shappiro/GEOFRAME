@@ -10,9 +10,9 @@ Tested backends:
 	* No compilation problem reported, but class does not seem to instantiate correctly
 	during class launch. Also, lacks of thoroug documentation.
 	Base class to be loaded:
-	~~~
+	```java
 	import org.rosuda.JRI.Rengine;
-	~~~
+	```
 
 Backends in testing:
 * *[Renjin](http://www.renjin.org/)*. Seems promising:
