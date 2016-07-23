@@ -23,10 +23,10 @@ Links
 
 Trivia
 ======
-* This has been a pain... *REMEMBER* to include the base class path inside the **classpath** during JAVA program execution! **e.g.**:
+* This has been a pain... **REMEMBER** to include the base class path inside the `-classpath` during JAVA program execution! *e.g.*:
 `java -classpath .:../lib/renjin-script-engine-0.8.2165-jar-with-dependencies.jar TryRenjin`
-Point obviously stands for "this dir", so the commant above assumes you're executing the code inside the class directory. 
-* *THE BIGGEST PAINSOURCE OF ALL*: for some reason, `java` does not interpret correctly `~` as `$HOME`. So, better use `$HOME` directly for scripting. 
+`.` obviously stands for "this dir", so the commant above assumes you're executing the code inside the class directory. 
+* **THE BIGGEST PAINSOURCE OF ALL**: for some reason, `java` does not interpret correctly `~` as `$HOME`. So, better use `$HOME` directly for scripting. 
 * Example of packaged program execution (also, nice use of dot notation for upwards directory navigation): `java -classpath ./:../../../JAVA_BASE_CLASSES/renjin-script-engine-0.8.2165-jar-with-dependencies.jar example1.TryRenjin` 
 
 Remember: *five pushes a day keeps the doctor away*
