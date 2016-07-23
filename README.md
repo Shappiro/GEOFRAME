@@ -21,4 +21,10 @@ Links
 * [GEOFrame source code](https://github.com/geogramecomponents)
 * [GEOFrame projects](https://github.com/GEOframeOMSProjects)
 
+Trivia
+======
+* This has been a pain... *REMEMBER* to include the base class path inside the **classpath** during JAVA program execution! **e.g.**:
+`java -classpath .:../lib/renjin-script-engine-0.8.2165-jar-with-dependencies.jar TryRenjin`
+Point obviously stands for "this dir", so the commant above assumes you're executing the code inside the class directory. 
+
 Remember: *five pushes a day keeps the doctor away*
