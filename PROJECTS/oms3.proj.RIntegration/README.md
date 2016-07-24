@@ -35,6 +35,6 @@ statistical language through an R wrapper.
 **Backends in testing**:
 * -
 
-**PROGRESS**
+**PROGRESS - PROJECT COMPLETED**
 - [x] Tested R and JAVA integration succesfully;
-- [] Test R and OMS3 integration by writing one OMS component which takes as input a strimg from the _simfile_
+- [x] Test R and OMS3 integration by writing one OMS component which takes as input a strimg from the _simfile_
