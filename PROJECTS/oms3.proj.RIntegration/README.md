@@ -1,4 +1,4 @@
-Integratin test between Java-OMS3-R
+Integration test between Java-OMS3-R
 ===================================
 
 This is only a playground for testing the integration of OMS3 with R
