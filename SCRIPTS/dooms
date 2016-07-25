@@ -105,6 +105,7 @@ echo '
     <property name="classes.dir"    value="${build.dir}/classes"/>
     <property name="obj.dir"        value="${build.dir}/obj"/>
     <property name="gensrc.dir"     value="${build.dir}/gensrc"/>
+    <property name="other.dir"      value="../../JAVA_BASE_CLASSES"/>
 
     <!-- OMS Properties -->
     <property name="oms.version"    value="'$OMSVER'"/>
@@ -136,6 +137,9 @@ echo '
         <fileset dir="${dist.dir}" erroronmissingdir="false">
             <include name="*.jar"/>
         </fileset>
+        <fileset dir="${other.dir}" erroronmissingdir="false">
+            <include name="*.jar"/>
+        </fileset>        
     </path>
   
     <taskdef name="nap" classname="oms3.nap.JNAComponentTask" classpathref="oms-cp" />
@@ -290,13 +294,29 @@ echo '
 	    -cc|--compilecomp)
 			echo "$OMSALL_PATH"
 			COMPONENT="$2"
-			echo "#####################################"
-			echo "Compiling the $COMPONENT component..."
-			echo "javac -cp $OMSALL_PATH/oms-all.jar $COMPONENT"
-			echo "#####################################"
-			sleep 1
+
+            # Collects all the jar files
+            for i in `ls $PROJDIR/dist/*.jar`
+            do
+                JARS=$JARS:$i
+            done
+            # Check if there's any lib directory before including it inside the jars var
+            if [[ :$PROJDIR: == *":lib:"* ]]; then
+                for i in `ls $PROJDIR/lib/*.jar`
+                do
+                    JARS=$JARS:$i
+                done
+            fi
+            JARS=$JARS$OMSALL_PATH/oms-all.jar
+
+            echo "#####################################"
+            echo "Compiling the $COMPONENT component..."
+            echo "javac -cp $JARS $COMPONENT"
+            echo "#####################################"
+            sleep 1
+
 			# Do the compilation
-			javac -cp $OMSALL_PATH/oms-all.jar $COMPONENT
+			javac -cp .:$JARS $COMPONENT
 
 		shift
 		;;
@@ -320,13 +340,17 @@ echo '
 			    JARS=$JARS:$i
 			done
 			# Check if there's any lib directory before including it inside the jars var
-			if [[ :$PROJDIR: == *":lib:"* ]]; then
-				for i in `ls $PROJDIR/lib/*.jar`
-				do
-				    JARS=$JARS:$i
-				done
-			fi
-			JARS=${JARS:1} # Remove first charcter of the string (the starting semicolumn)
+			#if [[ :$PROJDIR: == *":lib:"* ]]; then
+			for i in `ls $PROJDIR/lib/*.jar`
+			do
+				JARS=$JARS:$i
+			done
+            for i in `ls $HOME/OMS/GEOFRAME/JAVA_BASE_CLASSES/*.jar`
+            do
+                JARS=$JARS:$i
+            done            
+			#fi
+			JARS=.$JARS:$OMSALL_PATH/oms-all.jar
 
 			echo "###########################################"
 			echo "Executing simulation through command:"
