@@ -1,0 +1,14 @@
+import static oms3.SimBuilder.instance as OMS3
+
+OMS3.sim { 	  
+    build(target:"all")
+    
+    model() {
+        components {
+           "r" "reader.Read" // Is it enough to instantiate the Renjin class only one time?
+        }
+        parameter {
+             "r.precFileName" "$oms_prj/data/max_cles"
+        }
+    }
+}
