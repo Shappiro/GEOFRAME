@@ -1,4 +1,4 @@
-package oms3.proj.gumbel.reader;
+package reader;
 
 // R script
 import javax.script.*;
@@ -17,7 +17,7 @@ import static java.lang.Math.*;
 @Description("A class to read a precipitation file from the Trentino automatic stations")
 @Keywords("R,Renjin,precipitation,read,pluviometric station")
 
-public class RExecute {
+public class Read {
 	/**
 	 * Reads a given prec file
 	 *
@@ -35,7 +35,7 @@ public class RExecute {
         }
 
         // R code here
-        renjin.eval("station_data<-data.frame(read.table('" + precFileName + "', header=TRUE, na.string="--"))");
-        renjin.eval("station_data"); // TEST
+        renjin.eval("station_data<-data.frame(read.table('" + precFileName + "', header=TRUE, na.string='--'))");
+        renjin.eval("print(head(station_data))"); // TEST
     }
 }

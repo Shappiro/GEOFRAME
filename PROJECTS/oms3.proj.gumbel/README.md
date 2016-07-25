@@ -10,6 +10,8 @@ R code as possible.
 Every `.R` file will be contained in a separate class.
 
 **NEXT STEPS**
+- [x] Create a JAVA class for precipitation file read
+- Ask *StackExchange* for help with point 2 of the notes
 - [] Create a JAVA class for every `.R` file
 - [] Gain an understanding about how the input/output is managed through Renjin
 - [] Select some JAVA library for plotting, or port the old R code to the 
@@ -23,3 +25,8 @@ Links
 
 Notes
 =====
+1. Normally, building through `ant` command launched from the project directory is more than enough, although
+	the `dooms -b` script is more flexible
+2. Still having problems seeing output from the console... `dooms -s simfile.sim` does not work (returns strange
+[SHA-256] string with other low-level messages), and neither does the normal `java -Doms3.work=... 
+-Doms.resources=... -jar ... -s simfile.sim` (same error as `dooms -s simfile.sim`).

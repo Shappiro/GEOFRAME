@@ -1,0 +1,127 @@
+Jul 25, 2016 9:29:20 AM ngmfconsole.Main <clinit>
+INFO: Start Session
+Jul 25, 2016 9:29:21 AM ngmfconsole.Main main
+INFO: Log level: INFO
+Jul 25, 2016 9:29:21 AM ngmfconsole.Main main
+INFO: OMS version 3.5.2
+Jul 25, 2016 9:29:21 AM ngmfconsole.Main main
+INFO: OMS home: /home/cifciaf/.oms/3.5.2
+Jul 25, 2016 9:29:21 AM ngmfconsole.Main main
+INFO: User dir: /home/cifciaf/OMS/GEOFRAME/PROJECTS/oms3.proj.gumbel
+Jul 25, 2016 9:29:21 AM ngmfconsole.Main main
+INFO: java.home: /usr/lib/jvm/java-8-oracle
+Jul 25, 2016 9:29:28 AM ngmfconsole.Main$1 run
+INFO: staring console.
+Jul 25, 2016 9:29:29 AM ngmfconsole.Console setupComponents
+INFO: setup components.
+Jul 25, 2016 9:29:29 AM ngmfconsole.Console setupComponents
+INFO: setup options toolbar.
+Jul 25, 2016 9:29:29 AM ngmfconsole.Console setupComponents
+INFO: setup dialog boxes.
+Jul 25, 2016 9:29:30 AM ngmfconsole.Console setupComponents
+INFO: setup preferences.
+Jul 25, 2016 9:29:30 AM ngmfconsole.Console setupComponents
+INFO: setup work combo.
+Jul 25, 2016 9:29:30 AM ngmfconsole.Console setupComponents
+INFO: setup tabs.
+Jul 25, 2016 9:29:30 AM ngmfconsole.Console setupComponents
+INFO: setup install.
+Jul 25, 2016 9:29:30 AM ngmfconsole.Console setupComponents
+INFO: Done console init.
+Jul 25, 2016 9:29:30 AM ngmfconsole.Console$7 run
+INFO: Installing (1/5)  /home/cifciaf/.oms/3.5.2/oms-all.jar ... 
+Jul 25, 2016 9:29:30 AM ngmfconsole.Console$7 run
+SEVERE: Error
+java.io.FileNotFoundException: Source '/home/cifciaf/OMS/GEOFRAME/PROJECTS/oms3.proj.gumbel/lib/oms-all.jar' does not exist
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1006)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:970)
+	at ngmfconsole.Console$7.run(Console.java:439)
+
+Jul 25, 2016 9:30:58 AM ngmfconsole.Main <clinit>
+INFO: Start Session
+Jul 25, 2016 9:30:58 AM ngmfconsole.Main main
+INFO: Log level: INFO
+Jul 25, 2016 9:30:58 AM ngmfconsole.Main main
+INFO: OMS version 3.5.2
+Jul 25, 2016 9:30:59 AM ngmfconsole.Main main
+INFO: OMS home: /home/cifciaf/.oms/3.5.2
+Jul 25, 2016 9:30:59 AM ngmfconsole.Main main
+INFO: User dir: /home/cifciaf/OMS/GEOFRAME/PROJECTS/oms3.proj.gumbel
+Jul 25, 2016 9:30:59 AM ngmfconsole.Main main
+INFO: java.home: /usr/lib/jvm/java-8-oracle
+Jul 25, 2016 9:30:59 AM ngmfconsole.Main$1 run
+INFO: staring console.
+Jul 25, 2016 9:31:00 AM ngmfconsole.Console setupComponents
+INFO: setup components.
+Jul 25, 2016 9:31:00 AM ngmfconsole.Console setupComponents
+INFO: setup options toolbar.
+Jul 25, 2016 9:31:00 AM ngmfconsole.Console setupComponents
+INFO: setup dialog boxes.
+Jul 25, 2016 9:31:00 AM ngmfconsole.Console setupComponents
+INFO: setup preferences.
+Jul 25, 2016 9:31:00 AM ngmfconsole.Console setupComponents
+INFO: setup work combo.
+Jul 25, 2016 9:31:00 AM ngmfconsole.Console setupComponents
+INFO: setup tabs.
+Jul 25, 2016 9:31:00 AM ngmfconsole.Console setupComponents
+INFO: setup install.
+Jul 25, 2016 9:31:00 AM ngmfconsole.Console setupComponents
+INFO: Done console init.
+Jul 25, 2016 9:31:00 AM ngmfconsole.Console$7 run
+INFO: Installing (1/5)  /home/cifciaf/.oms/3.5.2/oms-all.jar ... 
+Jul 25, 2016 9:31:00 AM ngmfconsole.Console$7 run
+SEVERE: Error
+java.io.FileNotFoundException: Source '/home/cifciaf/OMS/GEOFRAME/PROJECTS/oms3.proj.gumbel/lib/oms-all.jar' does not exist
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1006)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:970)
+	at ngmfconsole.Console$7.run(Console.java:439)
+
+Jul 25, 2016 9:32:46 AM ngmfconsole.Main <clinit>
+INFO: Start Session
+Jul 25, 2016 9:32:46 AM ngmfconsole.Main main
+INFO: Log level: INFO
+Jul 25, 2016 9:32:46 AM ngmfconsole.Main main
+INFO: OMS version 3.5.2
+Jul 25, 2016 9:32:46 AM ngmfconsole.Main main
+INFO: OMS home: /home/cifciaf/.oms/3.5.2
+Jul 25, 2016 9:32:46 AM ngmfconsole.Main main
+INFO: User dir: /home/cifciaf/OMS/GEOFRAME/PROJECTS/oms3.proj.gumbel
+Jul 25, 2016 9:32:46 AM ngmfconsole.Main main
+INFO: java.home: /usr/lib/jvm/java-8-oracle
+Jul 25, 2016 9:32:47 AM ngmfconsole.Main$1 run
+INFO: staring console.
+Jul 25, 2016 9:32:47 AM ngmfconsole.Console setupComponents
+INFO: setup components.
+Jul 25, 2016 9:32:47 AM ngmfconsole.Console setupComponents
+INFO: setup options toolbar.
+Jul 25, 2016 9:32:47 AM ngmfconsole.Console setupComponents
+INFO: setup dialog boxes.
+Jul 25, 2016 9:32:48 AM ngmfconsole.Console setupComponents
+INFO: setup preferences.
+Jul 25, 2016 9:32:48 AM ngmfconsole.Console setupComponents
+INFO: setup work combo.
+Jul 25, 2016 9:32:48 AM ngmfconsole.Console setupComponents
+INFO: setup tabs.
+Jul 25, 2016 9:32:48 AM ngmfconsole.Console setupComponents
+INFO: setup install.
+Jul 25, 2016 9:32:48 AM ngmfconsole.Console setupComponents
+INFO: Done console init.
+Jul 25, 2016 9:32:48 AM ngmfconsole.Console$7 run
+INFO: Installing (1/5)  /home/cifciaf/.oms/3.5.2/oms-all.jar ... 
+Jul 25, 2016 9:32:48 AM ngmfconsole.Console$7 run
+SEVERE: Error
+java.io.FileNotFoundException: Source '/home/cifciaf/OMS/GEOFRAME/PROJECTS/oms3.proj.gumbel/lib/oms-all.jar' does not exist
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1006)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:970)
+	at ngmfconsole.Console$7.run(Console.java:439)
+
+Jul 25, 2016 9:33:07 AM oms3.util.ProcessExecution exec
+INFO: [/usr/lib/jvm/java-8-oracle/bin/java, -Doms3.work=/home/cifciaf/OMS/GEOFRAME/PROJECTS/oms3.proj.gumbel, -Doms.csip=false, -cp, /home/cifciaf/.oms/3.5.2/jcommon-1.0.15.jar:/home/cifciaf/.oms/3.5.2/omsx-csip.jar:/home/cifciaf/.oms/3.5.2/cpptasks-1.0b6-od.jar:/home/cifciaf/.oms/3.5.2/oms-all.jar:/home/cifciaf/.oms/3.5.2/jfreechart-1.0.12.jar:/home/cifciaf/.oms/3.5.2/groovy-all-2.3.9.jar:/home/cifciaf/OMS/GEOFRAME/PROJECTS/oms3.proj.gumbel/lib/REngine.jar:/home/cifciaf/OMS/GEOFRAME/PROJECTS/oms3.proj.gumbel/lib/JRI.jar:/home/cifciaf/OMS/GEOFRAME/PROJECTS/oms3.proj.gumbel/lib/JRIEngine.jar:/home/cifciaf/OMS/GEOFRAME/PROJECTS/oms3.proj.gumbel/dist/oms3.proj.gumbel.jar, oms3.CLI, -l, OFF, -r, /home/cifciaf/OMS/GEOFRAME/PROJECTS/oms3.proj.gumbel/simulation/oms3.proj.gumbel.sim]
+Jul 25, 2016 9:33:46 AM oms3.util.ProcessExecution exec
+INFO: [/usr/lib/jvm/java-8-oracle/bin/java, -Doms3.work=/home/cifciaf/OMS/GEOFRAME/PROJECTS/oms3.proj.gumbel, -Doms.csip=false, -cp, /home/cifciaf/.oms/3.5.2/jcommon-1.0.15.jar:/home/cifciaf/.oms/3.5.2/omsx-csip.jar:/home/cifciaf/.oms/3.5.2/cpptasks-1.0b6-od.jar:/home/cifciaf/.oms/3.5.2/oms-all.jar:/home/cifciaf/.oms/3.5.2/jfreechart-1.0.12.jar:/home/cifciaf/.oms/3.5.2/groovy-all-2.3.9.jar:/home/cifciaf/OMS/GEOFRAME/PROJECTS/oms3.proj.gumbel/lib/renjin-script-engine-0.8.2165-jar-with-dependencies.jar:/home/cifciaf/OMS/GEOFRAME/PROJECTS/oms3.proj.gumbel/dist/oms3.proj.gumbel.jar, oms3.CLI, -l, OFF, -r, /home/cifciaf/OMS/GEOFRAME/PROJECTS/oms3.proj.gumbel/simulation/oms3.proj.gumbel.sim]
+Jul 25, 2016 9:34:25 AM oms3.util.ProcessExecution exec
+INFO: [/usr/lib/jvm/java-8-oracle/bin/java, -Doms3.work=/home/cifciaf/OMS/GEOFRAME/PROJECTS/oms3.proj.gumbel, -Doms.csip=false, -cp, /home/cifciaf/.oms/3.5.2/jcommon-1.0.15.jar:/home/cifciaf/.oms/3.5.2/omsx-csip.jar:/home/cifciaf/.oms/3.5.2/cpptasks-1.0b6-od.jar:/home/cifciaf/.oms/3.5.2/oms-all.jar:/home/cifciaf/.oms/3.5.2/jfreechart-1.0.12.jar:/home/cifciaf/.oms/3.5.2/groovy-all-2.3.9.jar:/home/cifciaf/OMS/GEOFRAME/PROJECTS/oms3.proj.gumbel/lib/renjin-script-engine-0.8.2165-jar-with-dependencies.jar:/home/cifciaf/OMS/GEOFRAME/PROJECTS/oms3.proj.gumbel/dist/oms3.proj.gumbel.jar, oms3.CLI, -l, OFF, -r, /home/cifciaf/OMS/GEOFRAME/PROJECTS/oms3.proj.gumbel/simulation/oms3.proj.gumbel.sim]
+Jul 25, 2016 9:36:57 AM oms3.util.ProcessExecution exec
+INFO: [/usr/lib/jvm/java-8-oracle/bin/java, -Doms3.work=/home/cifciaf/OMS/GEOFRAME/PROJECTS/oms3.proj.gumbel, -Doms.csip=false, -cp, /home/cifciaf/.oms/3.5.2/jcommon-1.0.15.jar:/home/cifciaf/.oms/3.5.2/omsx-csip.jar:/home/cifciaf/.oms/3.5.2/cpptasks-1.0b6-od.jar:/home/cifciaf/.oms/3.5.2/oms-all.jar:/home/cifciaf/.oms/3.5.2/jfreechart-1.0.12.jar:/home/cifciaf/.oms/3.5.2/groovy-all-2.3.9.jar:/home/cifciaf/OMS/GEOFRAME/PROJECTS/oms3.proj.gumbel/lib/renjin-script-engine-0.8.2165-jar-with-dependencies.jar:/home/cifciaf/OMS/GEOFRAME/PROJECTS/oms3.proj.gumbel/dist/oms3.proj.gumbel.jar, oms3.CLI, -l, OFF, -r, /home/cifciaf/OMS/GEOFRAME/PROJECTS/oms3.proj.gumbel/simulation/oms3.proj.gumbel.sim]
+Jul 25, 2016 9:37:26 AM oms3.util.ProcessExecution exec
+INFO: [/usr/lib/jvm/java-8-oracle/bin/java, -Doms3.work=/home/cifciaf/OMS/GEOFRAME/PROJECTS/oms3.proj.gumbel, -Doms.csip=false, -cp, /home/cifciaf/.oms/3.5.2/jcommon-1.0.15.jar:/home/cifciaf/.oms/3.5.2/omsx-csip.jar:/home/cifciaf/.oms/3.5.2/cpptasks-1.0b6-od.jar:/home/cifciaf/.oms/3.5.2/oms-all.jar:/home/cifciaf/.oms/3.5.2/jfreechart-1.0.12.jar:/home/cifciaf/.oms/3.5.2/groovy-all-2.3.9.jar:/home/cifciaf/OMS/GEOFRAME/PROJECTS/oms3.proj.gumbel/lib/renjin-script-engine-0.8.2165-jar-with-dependencies.jar:/home/cifciaf/OMS/GEOFRAME/PROJECTS/oms3.proj.gumbel/dist/oms3.proj.gumbel.jar, oms3.CLI, -l, OFF, -r, /home/cifciaf/OMS/GEOFRAME/PROJECTS/oms3.proj.gumbel/simulation/oms3.proj.gumbel.sim]
